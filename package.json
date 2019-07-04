@@ -13,8 +13,11 @@
   "license": "ISC",
   "dependencies": {
     "next": "^8.0.3",
+    "next-fonts": "^0.17.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-markdown": "^4.1.0"
+    "react-markdown": "^4.1.0",
+    "styled-components": "^4.3.2",
+    "typeface-orbitron": "0.0.72"
   }
 }

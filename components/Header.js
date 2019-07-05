@@ -40,6 +40,7 @@ export default function Header() {
         margin-right: 20px;
         font-family: Orbitron;
         font-size:25px;
+        text-decoration: none;
       }
 
       .header {

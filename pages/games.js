@@ -1,28 +1,35 @@
 import Layout from '../components/MyLayout.js'
-import MyImage1 from './img1'
-export default function About() {
+import Pic from '../components/Pic'
+import Des from '../components/Des'
+
+export default function Games() {
   return (
     <Layout>
-      <div>
-        <div className="title_bar">
-        <h1 className="title">Our Games</h1>
+      <div className="title_bar">
+        <h1 className="title">OUR GAME</h1>
+      </div>
+      <div className="content_bar">
+        <div className="background1_pic">
+
         </div>
-        <div className="g1">
-          <div className="game_desc">
-            <h2 className="game1">Game 1</h2>
-            <p className="desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div className="game_pic">
-            <MyImage1 />
-          </div>
+        <div className="des">
+          <Des game="GAME 1" />
+          <Pic src="/static/sonic.png" alt="game1" />
+
         </div>
       </div>
+
+      <div className="content_bar">
+        <div className="background2_pic">
+
+        </div>
+        <div className="des">
+          <Des game="GAME 2" />
+          <Pic src="/static/mario.png" alt="game2" />
+
+        </div>
+      </div>
+
       <style jsx>
         {`
         .title_bar{
@@ -36,28 +43,24 @@ export default function About() {
           text-align: center;
           font-size: 60px;
           padding-top: 15px;
+          text-decoration: underline;
         }
-        .game1 {
-          font-family: 'Orbitron';
-          font-size: 40px;
-        }
-        .desc{
-          font-family: 'Montserrat';
-          font-size: 30px;
-          width: 630px;
-          height: 314px;
-          padding-top: 30px;
-        }
-        .g1 {
+        .des {
           display: flex;
-          justify-content: space-evenly;
+          justify-content: space-between;
           align-items: center;
-          width: 1320px;
-          height: 643px;
+          padding: 50px 100px;
+          background-color: #E5E5E5
+        }
+        .content_bar {
+          padding: 80px 60px;
         }
     
         `}
       </style>
+
     </Layout>
-  )
+  );
 }
+
+

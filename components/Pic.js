@@ -1,7 +1,9 @@
-function MyImage1() {
+import React from 'react'
+
+export default function Pic (props) {
     return (
         <div>
-            <img src="/static/mario.png" alt="game1" className="gamePic"/>
+            <img src={props.src} alt={props.alt} className="gamePic" />
             <style jsx>
                 {`
                     .gamePic{
@@ -11,7 +13,6 @@ function MyImage1() {
                 `}
             </style>
         </div>
-    )
-}
 
-export default MyImage1
+    );
+}

@@ -23,8 +23,8 @@ export default function Des(props) {
         .desc{
           font-family: 'Montserrat';
           font-size: 30px;
-          width: 630px;
-          height: 314px;
+          width: auto;
+          height: auto;
           padding-top: 30px;
           letter-spacing: 2px;
         }

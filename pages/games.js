@@ -8,10 +8,7 @@ export default function Games() {
       <div className="title_bar">
         <h1 className="title">OUR GAME</h1>
       </div>
-      <div className="content_bar">
-        <div className="background1_pic">
-
-        </div>
+      <div className="content_bar1">
         <div className="des">
           <Des game="GAME 1" />
           <Pic src="/static/sonic.png" alt="game1" />
@@ -19,10 +16,7 @@ export default function Games() {
         </div>
       </div>
 
-      <div className="content_bar">
-        <div className="background2_pic">
-
-        </div>
+      <div className="content_bar2">
         <div className="des">
           <Des game="GAME 2" />
           <Pic src="/static/mario.png" alt="game2" />
@@ -44,6 +38,7 @@ export default function Games() {
           font-size: 60px;
           padding-top: 15px;
           text-decoration: underline;
+          letter-spacing: 5px;
         }
         .des {
           display: flex;
@@ -52,8 +47,15 @@ export default function Games() {
           padding: 50px 100px;
           background-color: #E5E5E5
         }
-        .content_bar {
+        .content_bar2 {
           padding: 80px 60px;
+          background-image: url("/static/Mario-bg.png");
+          background-size: 100% 100%;
+        }
+        .content_bar1 {
+          padding: 80px 60px;
+          background-image: url("/static/Rectangle 4.png");
+          background-size: 100% 100%;
         }
     
         `}

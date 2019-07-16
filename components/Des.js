@@ -18,6 +18,7 @@ export default function Des(props) {
         .game_title {
           font-family: 'Orbitron';
           font-size: 40px;
+          letter-spacing: 3px;
         }
         .desc{
           font-family: 'Montserrat';
@@ -25,6 +26,7 @@ export default function Des(props) {
           width: 630px;
           height: 314px;
           padding-top: 30px;
+          letter-spacing: 2px;
         }
     
         `}

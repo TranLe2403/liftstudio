@@ -41,6 +41,8 @@ export default function Header() {
         font-family: Orbitron;
         font-size:25px;
         text-decoration: none;
+        letter-spacing: 3px;
+
       }
 
       .header {

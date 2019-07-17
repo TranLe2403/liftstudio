@@ -32,23 +32,36 @@ export default function Blog() {
           width: 265px;
           height: 265px;
           padding-top: 80px;
+          position: relative;
+        }
+        .des_logo::after {
+          z-index: 1;
+          opacity: 1; 
+          position: absolute;
         }
 
         .home {
           display: flex;
           align-items: center;
-          flex-direction: column;
-          background-color: #040404;
-          opacity: 0.85; 
-          min-height: 600px;
+          flex-direction: column; 
+          height: 700px;
+          position: relative;
+          z-index: 1;
+          
         }
-        .bg {
-          background-image: url("/static/home1.png"), 
+        .home::before {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          z-index: -1;
+          content: " ";
+          background-image: linear-gradient(to right, rgba(4,4,4,0.85), rgba(4,4,4,0.85)),
+                            url("/static/home1.png"), 
                             url("/static/home2.png"),
                             url("/static/home3.png"),
                             url("/static/home4.png");
           background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-          background-position: 0 0, 34% 0, 68% 0, 100% 0;
+          background-position: 0 0, 33% 0, 66.5% 0, 100% 0;
         }
         `}
       </style>

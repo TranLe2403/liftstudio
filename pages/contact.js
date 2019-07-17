@@ -25,15 +25,21 @@ export default function contact() {
             </div>
             <style jsx>
                 {`
-                .bg_layer2{
-                    background-image: url("/static/contact-bg.png");
+                .contact::before{
+                    content: " ";
+                    background: linear-gradient(to right, rgba(4,4,4,0.85), rgba(4,4,4,0.85)), url("/static/contact-bg.png") ;
                     background-size: 100% 100%;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    z-index: -1;
+                    
                 }
             .contact {
                 display: flex;
                 justify-content: space-between;
-                background-color: #040404;
-                opacity: 0.85; 
+                position: relative;
+                z-index: 1;
             }
             .title_bar{
                 height: 80px;
@@ -57,9 +63,6 @@ export default function contact() {
             .des_logo {
                 width: 280px;
                 height: 280px;
-                z-index: 1;
-                opacity: 1;
-                
                 
             }
             .logo_part{
@@ -68,6 +71,8 @@ export default function contact() {
                 flex-direction: column;
                 justify-content: flex-end;
                 margin: 100px;
+                z-index: 1;
+                
             }
         `}
             </style>

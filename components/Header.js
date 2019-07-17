@@ -33,8 +33,8 @@ export default function Header() {
       }
       .menu {  
         padding-right: 30px;
+        font-weight: 1000;
           }
-
       .link {
         color: #444141;
         margin-right: 20px;

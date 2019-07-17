@@ -6,7 +6,6 @@ function Img () {
         {`
       .logo_img {
         background: #444141;
-        z-index: 1;
       }
       `}
       </style>

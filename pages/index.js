@@ -1,20 +1,34 @@
 import Layout from '../components/MyLayout.js'
 import Img from '../components/Logo'
+import Games from './games.js'
+import Team from './team.js'
+import Contact from './contact.js'
+
 
 
 
 export default function Blog() {
   return (
     <Layout>
-      <div className="bg">
-        <div className="home">
-          <div className="des_logo">
-            <Img />
+      <div className="full-page">
+        <div className="section">
+          <div className="bg">
+            <div className="home">
+              <div className="des_logo">
+                <Img />
+              </div>
+              <h1 className="title">LIFT STUDIO</h1>
+              <p className="description">Ut enim ad minim veniam,laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
           </div>
-          <h1 className="title">LIFT STUDIO</h1>
-          <p className="description">Ut enim ad minim veniam,laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
+        <Games className="section" />
+        <Team className="section" />
+        <Contact className="seciton" />
       </div>
+      new fullpage('.full-page', {
+        sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6']
+      });
       <style jsx>
         {`
         .title {
@@ -27,6 +41,9 @@ export default function Blog() {
           font-family: 'Montserrat';
           font-size: 20px;
           color: white;
+          width: 450px;
+          text-align: center;
+          letter-spacing: 5px;
         }
         .des_logo {
           width: 265px;
@@ -65,6 +82,7 @@ export default function Blog() {
         }
         `}
       </style>
+      
     </Layout>
   );
 }

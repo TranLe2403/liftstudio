@@ -4,11 +4,13 @@ import Logo_Contact from '../components/Contact'
 
 
 
-export default function contact() {
+export default function Contact() {
     return (
         <Layout>
             <div className="title_bar">
-                <h1 className="title">CONTACT</h1>
+                <h1 className="h">
+                    <span className="title">CONTACT</span>
+                </h1>
             </div>
             <div className="bg_layer2">
                 <div className="contact">
@@ -41,19 +43,25 @@ export default function contact() {
                 position: relative;
                 z-index: 1;
             }
-            .title_bar{
-                height: 80px;
-                background-color: #F9A825;
-            }
-            .title {
-                margin: 10px;
-                font-family: 'Orbitron';
-                text-align: center;
-                font-size: 60px;
-                padding-top: 15px;
-                text-decoration: underline;
-                letter-spacing: 5px;
-            }
+            .h {
+          padding-top: 20px;
+        }
+          .title_bar {
+            margin-top: 5px;
+            height: 100px;
+            background-color: #F9A825;
+            text-align: center;
+
+          }
+          .title {
+            margin: 10px;
+            font-family: 'Orbitron';
+            text-align: center;
+            font-size: 60px;
+            border-bottom: 3px solid black;
+            letter-spacing: 5px;
+            
+          }
             .logo_name{
                 font-family: 'Orbitron';
                 font-size:50px;

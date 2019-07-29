@@ -2,36 +2,36 @@ import React from 'react'
 
 
 export default function Logo_Contact() {
-    return (
-        <div>
-        <div className="group">
+  return (
+    <div>
+      <div className="group">
         <React.Fragment>
-            <Logo src="/static/gmail.png" alt="gmail" name="Email:" />
-            <Logo src="/static/Rectangle 8.2.png" alt="fb" name="Facebook:" />
-            <Logo src="/static/office.png" alt="home" name="Office:" />
+          <Logo src="/static/gmail.png" alt="gmail" name="Email:" />
+          <Logo src="/static/Rectangle 8.2.png" alt="fb" name="Facebook:" />
+          <Logo src="/static/office.png" alt="home" name="Office:" />
         </React.Fragment>
-        </div>
-        <style jsx>
-                {`
-                    .group{
-                      margin: 100px;  
-                    }
-                    
-                `}
-            </style>
-        </div>
-    );
+      </div>
+      <style jsx>
+        {`
+            .group{
+              margin: 100px;  
+            }
+            
+        `}
+      </style>
+    </div>
+  );
 }
 
 function Logo(props) {
-    return (
-        <div>
-            <div className="Contact">
-                <img src={props.src} alt={props.alt} className="logo" />
-            <div className="contact_part">{props.name}</div>
-            </div>
-            <style jsx>
-                {`
+  return (
+    <div>
+      <div className="Contact">
+        <img src={props.src} alt={props.alt} className="logo" />
+        <div className="contact_part">{props.name}</div>
+      </div>
+      <style jsx>
+        {`
                     .logo{
                         width: 50px;
                         height: 50px;
@@ -52,7 +52,7 @@ function Logo(props) {
                     }
                     
                 `}
-            </style>
-        </div>
-    );
+      </style>
+    </div>
+  );
 }

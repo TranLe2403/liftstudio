@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import Img from './Logo'
+import Link from './Link'
 
 
 export default function Header() {
@@ -11,21 +11,25 @@ export default function Header() {
         </div>
 
         <div className="menu">
-          <Link href="/">
+          <Link activeClassName='active' href="/">
             <a className="link">HOME</a>
           </Link>
-          <Link href="/games">
+          <Link activeClassName='active' href="/games">
             <a className="link">GAMES</a>
           </Link>
-          <Link href="/team">
+          <Link activeClassName='active' href="/team">
             <a className="link">TEAM</a>
           </Link>
-          <Link href="/contact">
+          <Link activeClassName='active' href="/contact">
             <a className="link">CONTACT</a>
           </Link>
         </div>
       </div>
       <style jsx>{`
+      .active{
+        border-bottom: 4px solid black;
+        height: 40px;
+      }
       .nav_logo {
         padding: 10px 30px;
         width: 60px;
@@ -42,6 +46,7 @@ export default function Header() {
         font-size:25px;
         text-decoration: none;
         letter-spacing: 3px;
+        padding: 0 10px;
 
       }
 

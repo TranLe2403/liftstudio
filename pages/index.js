@@ -26,10 +26,7 @@ export default function Blog() {
         <Team className="section" />
         <Contact className="seciton" />
       </div>
-      new fullpage('.full-page', {
-        sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6']
-      });
-      <style jsx>
+           <style jsx>
         {`
         .title {
           font-family: 'Orbitron';

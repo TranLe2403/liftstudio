@@ -11,7 +11,7 @@ const ActiveLink = ({ router, children, ...props }) => {
       className = `${className !== null ? className : ''} ${props.activeClassName}`.trim()
     }
   
-    // delete props.activeClassName
+    delete props.activeClassName
   
   
     return <Link {...props}>

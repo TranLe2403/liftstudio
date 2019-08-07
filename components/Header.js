@@ -27,8 +27,7 @@ export default function Header() {
       </div>
       <style jsx>{`
       .active{
-        border-bottom: 4px solid black;
-        height: 40px;
+        border-bottom: 5px solid black;
       }
       .nav_logo {
         padding: 10px 30px;
@@ -46,7 +45,7 @@ export default function Header() {
         font-size:25px;
         text-decoration: none;
         letter-spacing: 3px;
-        padding: 0 10px;
+        padding: 10px;
 
       }
 

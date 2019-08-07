@@ -1,8 +1,5 @@
 import Layout from '../components/MyLayout.js'
 import Img from '../components/Logo'
-import Games from './games.js'
-import Team from './team.js'
-import Contact from './contact.js'
 
 
 
@@ -10,8 +7,6 @@ import Contact from './contact.js'
 export default function Blog() {
   return (
     <Layout>
-      <div className="full-page">
-        <div className="section">
           <div className="bg">
             <div className="home">
               <div className="des_logo">
@@ -21,12 +16,7 @@ export default function Blog() {
               <p className="description">Ut enim ad minim veniam,laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
           </div>
-        </div>
-        <Games className="section" />
-        <Team className="section" />
-        <Contact className="seciton" />
-      </div>
-           <style jsx>
+               <style jsx>
         {`
         .title {
           font-family: 'Orbitron';

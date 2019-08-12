@@ -5,7 +5,7 @@ function Img () {
       <style jsx>
         {`
       .logo_img {
-        background: black;
+        background: #444141;
       }
       `}
       </style>

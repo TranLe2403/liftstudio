@@ -18,13 +18,15 @@ export default function Des(props) {
         .game_title {
           font-family: 'Orbitron';
           font-size: 40px;
+          letter-spacing: 3px;
         }
         .desc{
           font-family: 'Montserrat';
           font-size: 30px;
-          width: 630px;
-          height: 314px;
+          width: auto;
+          height: auto;
           padding-top: 30px;
+          letter-spacing: 2px;
         }
     
         `}

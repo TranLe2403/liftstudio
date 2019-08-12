@@ -1,33 +1,39 @@
 import Img from './Logo'
 import Link from './Link'
 
-
 export default function Header() {
+  
+  const links = [
+      {href: "/", name: "HOME"},
+      {href: "/games", name: "GAMES"},
+      {href: "/team", name: "TEAM"},
+      {href: "/contact", name: "CONTACT"}
+  ];
+
   return (
     <div>
       <div className="header">
         <div className="nav_logo">
           <Img />
         </div>
-
         <div className="menu">
-          <Link activeClassName='active' href="/">
-            <a className="link">HOME</a>
-          </Link>
-          <Link activeClassName='active' href="/games">
-            <a className="link">GAMES</a>
-          </Link>
-          <Link activeClassName='active' href="/team">
-            <a className="link">TEAM</a>
-          </Link>
-          <Link activeClassName='active' href="/contact">
-            <a className="link">CONTACT</a>
-          </Link>
+
+
+          {
+            links.map(link => {
+              return (
+              <Link activeClassName="active" href={link.href} key={link.name}>
+                  <a className="link">{link.name}</a>
+              </Link>
+            )})
+          }
+          
         </div>
       </div>
       <style jsx>{`
       .active{
-        border-bottom: 5px solid black;
+        border-bottom: 5px solid #444141;
+ 
       }
       .nav_logo {
         padding: 10px 30px;
@@ -61,3 +67,4 @@ export default function Header() {
 
   )
 }
+

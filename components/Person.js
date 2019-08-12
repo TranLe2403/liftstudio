@@ -1,6 +1,8 @@
 import React from 'react'
-import Logo_SN from './Logo_SN'
+import Logo from '../components/Logo_SN.js'
+
 export default function Person(props) {
+	
     return (
         <div>
             <div className="person_info">
@@ -10,12 +12,28 @@ export default function Person(props) {
                     Ut enim ad minim venim, labos nisi ut aliquip ex ea commo consequat.
                 </p>
                 <div className="logo_network">
-                    <Logo_SN />
+                    
+                            <a href={props.fb} target="_blank">
+                             	<Logo src="/static/Rectangle 8.2.png" alt="fb"/>
+                            </a>
+                            
+                            <a href={props.github} target="_blank">
+                             	<Logo src="/static/github.png" alt="github"/>
+                            </a>
+
+                            <a href={props.gmail} target="_blank">
+                             	<Logo src="/static/gmail.png" alt="gmail"/>
+                            </a>
+
                 </div>
             </div>
             <style jsx>
                 {`
-        
+        .logo_SN{
+            padding: 10px;
+            width: 50px; 
+            height: 50px;
+        }
         .person_info{
             display: flex;
             flex-direction: column;

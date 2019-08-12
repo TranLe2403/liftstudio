@@ -58,8 +58,10 @@ export default function Contact() {
             font-family: 'Orbitron';
             text-align: center;
             font-size: 60px;
-            border-bottom: 3px solid black;
+            border-bottom: 3px solid #444141;
             letter-spacing: 5px;
+            color: #444141;
+
             
           }
             .logo_name{

@@ -4,6 +4,7 @@ import Person from '../components/Person.js'
 
 
 export default function Team() {
+
 	return (
 		<Layout>
 			<div>
@@ -14,12 +15,14 @@ export default function Team() {
 				</div>
 				<div className="bg">
 					<div className="team">
-						<Person name="TRAN LE" src="/static/TRANLE.jpg" alt="tranle" className="tranle" />
-						<Person name="VU DAO" src="/static/VUDAO.jpg" alt="vudao" className="vudao" />
-						<Person name="QUAN DAO" src="/static/QUANDAO.jpg" alt="quandao" className="quandao" />
+						<Person name="TRAN LE" src="/static/TRANLE.jpg" alt="tranle" fb="https://www.facebook.com/tran2403" github="https://github.com/TranLe2403" gmail="mailto:tratran.0324@gmail.com"/>
+						<Person name="VU DAO" src="/static/VUDAO.jpg" alt="vudao" fb="https://www.facebook.com/anhvudao17" github="https://github.com/greengrass17" gmail="mailto:anhvudao17@gmail.com"/>
+						<Person name="QUAN DAO" src="/static/QUANDAO.jpg" alt="quandao" fb="https://www.facebook.com/dendimaniac" github="https://github.com/dendimaniac" gmail="mailto:daq30899@gmail.com"/>
+
 					</div>
 				</div>
 			</div>
+
 			<style jsx>
 				{`
 			.h {
@@ -36,8 +39,10 @@ export default function Team() {
     	        font-family: 'Orbitron';
         	    text-align: center;
             	font-size: 60px;
-            	border-bottom: 3px solid black;
+            	border-bottom: 3px solid #444141;
             	letter-spacing: 5px;
+				color: #444141;
+
 	        }
       		.team {
 				display: flex;
@@ -49,6 +54,8 @@ export default function Team() {
 			.bg {
 				background: linear-gradient(90deg, #C4C4C4 33%, #FDFDFD 33%, #FDFDFD 67%, #C4C4C4 66%);
 			}
+			
+		
       			`}
 			</style>
 		</Layout>

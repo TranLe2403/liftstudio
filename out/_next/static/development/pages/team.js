@@ -11155,35 +11155,35 @@ function Team() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4206931023",
+    className: "jsx-2878044727" + " " + "team_page",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4206931023" + " " + "title_bar",
+    className: "jsx-2878044727" + " " + "title_bar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-4206931023" + " " + "title",
+    className: "jsx-2878044727" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }, "OUR TEAM")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4206931023" + " " + "bg",
+    className: "jsx-2878044727" + " " + "bg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4206931023" + " " + "team",
+    className: "jsx-2878044727" + " " + "team",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -11226,14 +11226,14 @@ function Team() {
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "4206931023",
+    id: "2878044727",
     __self: this
-  }, ".title_bar.jsx-4206931023{height:100px;background-color:#F9A825;text-align:center;}.title.jsx-4206931023{margin-top:20px;font-family:'Orbitron';text-align:center;font-size:60px;border-bottom:3px solid #444141;-webkit-letter-spacing:5px;-moz-letter-spacing:5px;-ms-letter-spacing:5px;letter-spacing:5px;color:#444141;display:inline-block;}.team.jsx-4206931023{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#040404;opacity:0.85;}.bg.jsx-4206931023{background:linear-gradient(90deg,#C4C4C4 33%,#FDFDFD 33%,#FDFDFD 67%,#C4C4C4 66%);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvdGVhbS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QkssQUFHMkIsQUFLRyxBQVdaLEFBT3lFLGFBdEJwRCxHQUtGLHNCQUpMLENBS0EsaUJBSnBCLENBS2lCLGVBQ2lCLEVBUXRCLFFBT3BCLHNCQWQ2Qix1Q0FRVCxzREFQTCxjQUNPLHFCQUVoQixJQUtvQix5QkFDWixhQUNkIiwiZmlsZSI6Ii9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvdGVhbS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dC5qcydcbmltcG9ydCBQZXJzb24gZnJvbSAnLi4vY29tcG9uZW50cy9QZXJzb24uanMnXG5cblxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBUZWFtKCkge1xuXG5cdHJldHVybiAoXG5cdFx0PExheW91dD5cblx0XHRcdDxkaXY+XG5cdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidGl0bGVfYmFyXCI+XG5cdFx0XHRcdFx0PGgxIGNsYXNzTmFtZT1cInRpdGxlXCI+T1VSIFRFQU08L2gxPlxuXHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJiZ1wiPlxuXHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidGVhbVwiPlxuXHRcdFx0XHRcdFx0PFBlcnNvbiBuYW1lPVwiVFJBTiBMRVwiIHNyYz1cImh0dHBzOi8vY3V0dC5seS9Pd3BnYnc1XCIgYWx0PVwidHJhbmxlXCIgZmI9XCJodHRwczovL3d3dy5mYWNlYm9vay5jb20vdHJhbjI0MDNcIiBnaXRodWI9XCJodHRwczovL2dpdGh1Yi5jb20vVHJhbkxlMjQwM1wiIGdtYWlsPVwibWFpbHRvOnRyYXRyYW4uMDMyNEBnbWFpbC5jb21cIi8+XG5cdFx0XHRcdFx0XHQ8UGVyc29uIG5hbWU9XCJWVSBEQU9cIiBzcmM9XCJodHRwczovL2N1dHQubHkvVHdwZ2JjRVwiIGFsdD1cInZ1ZGFvXCIgZmI9XCJodHRwczovL3d3dy5mYWNlYm9vay5jb20vYW5odnVkYW8xN1wiIGdpdGh1Yj1cImh0dHBzOi8vZ2l0aHViLmNvbS9ncmVlbmdyYXNzMTdcIiBnbWFpbD1cIm1haWx0bzphbmh2dWRhbzE3QGdtYWlsLmNvbVwiLz5cblx0XHRcdFx0XHRcdDxQZXJzb24gbmFtZT1cIlFVQU4gREFPXCIgc3JjPVwiaHR0cHM6Ly9jdXR0Lmx5L1h3cGd2ZHRcIiBhbHQ9XCJxdWFuZGFvXCIgZmI9XCJodHRwczovL3d3dy5mYWNlYm9vay5jb20vZGVuZGltYW5pYWNcIiBnaXRodWI9XCJodHRwczovL2dpdGh1Yi5jb20vZGVuZGltYW5pYWNcIiBnbWFpbD1cIm1haWx0bzpkYXEzMDg5OUBnbWFpbC5jb21cIi8+XG5cblx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L2Rpdj5cblxuXHRcdFx0PHN0eWxlIGpzeD5cblx0XHRcdFx0e2BcbiAgICAgICAgIFx0LnRpdGxlX2JhciB7XG4gICAgICAgICAgICBcdGhlaWdodDogMTAwcHg7XG4gICAgICAgICAgICBcdGJhY2tncm91bmQtY29sb3I6ICNGOUE4MjU7XG4gICAgICAgICAgICBcdHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICBcdH1cbiAgICAgICAgICBcdC50aXRsZSB7XG5cdCAgICAgICAgICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgXHQgICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICBcdCAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICBcdGZvbnQtc2l6ZTogNjBweDtcbiAgICAgICAgICAgIFx0Ym9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICM0NDQxNDE7XG4gICAgICAgICAgICBcdGxldHRlci1zcGFjaW5nOiA1cHg7XG5cdFx0XHRcdGNvbG9yOiAjNDQ0MTQxO1xuXHRcdFx0XHRkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG5cblx0ICAgICAgICB9XG4gICAgICBcdFx0LnRlYW0ge1xuXHRcdFx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdFx0XHRmbGV4LWRpcmVjdGlvbjogcm93OyAgXG5cdFx0XHRcdGFsaWduLWl0ZW1zOiBjZW50ZXI7XG5cdFx0XHRcdGJhY2tncm91bmQtY29sb3I6ICMwNDA0MDQ7XG5cdFx0XHRcdG9wYWNpdHk6IDAuODU7IFx0ICBcblx0XHRcdH1cblx0XHRcdC5iZyB7XG5cdFx0XHRcdGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgI0M0QzRDNCAzMyUsICNGREZERkQgMzMlLCAjRkRGREZEIDY3JSwgI0M0QzRDNCA2NiUpO1xuXHRcdFx0fVxuXHRcdFx0XG5cdFx0XG4gICAgICBcdFx0XHRgfVxuXHRcdFx0PC9zdHlsZT5cblx0XHQ8L0xheW91dD5cblx0KTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/lehuyentran/SumWebPro/pages/team.js */"));
+  }, ".team_page.jsx-2878044727{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}.title_bar.jsx-2878044727{height:100px;background-color:#F9A825;text-align:center;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}.title.jsx-2878044727{margin-top:20px;font-family:'Orbitron';text-align:center;font-size:60px;border-bottom:3px solid #444141;-webkit-letter-spacing:5px;-moz-letter-spacing:5px;-ms-letter-spacing:5px;letter-spacing:5px;color:#444141;display:inline-block;}.team.jsx-2878044727{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#040404;opacity:0.85;height:100%;}.bg.jsx-2878044727{background:linear-gradient(90deg,#C4C4C4 33%,#FDFDFD 33%,#FDFDFD 67%,#C4C4C4 66%);height:calc(100% - 100px);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvdGVhbS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3QkssQUFHaUIsQUFJVSxBQU1HLEFBV1osQUFTeUUsYUF6QnBELEdBTUYsc0JBTEwsQ0FNQSxpQkFMZixDQU1ZLGNBWnpCLENBYTBDLEVBUXRCLFFBU08sc0JBaEJFLElBaUI3QixtQkF4QlEsZ0JBZVksc0RBUEwsY0FDTyxxQkFFaEIsSUFLb0IseUJBQ1osYUFDRCxZQUViIiwiZmlsZSI6Ii9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvdGVhbS5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dC5qcydcbmltcG9ydCBQZXJzb24gZnJvbSAnLi4vY29tcG9uZW50cy9QZXJzb24uanMnXG5cblxuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBUZWFtKCkge1xuXG5cdHJldHVybiAoXG5cdFx0PExheW91dD5cblx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidGVhbV9wYWdlXCI+XG5cdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidGl0bGVfYmFyXCI+XG5cdFx0XHRcdFx0PGgxIGNsYXNzTmFtZT1cInRpdGxlXCI+T1VSIFRFQU08L2gxPlxuXHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PGRpdiBjbGFzc05hbWU9XCJiZ1wiPlxuXHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidGVhbVwiPlxuXHRcdFx0XHRcdFx0PFBlcnNvbiBuYW1lPVwiVFJBTiBMRVwiIHNyYz1cImh0dHBzOi8vY3V0dC5seS9Pd3BnYnc1XCIgYWx0PVwidHJhbmxlXCIgZmI9XCJodHRwczovL3d3dy5mYWNlYm9vay5jb20vdHJhbjI0MDNcIiBnaXRodWI9XCJodHRwczovL2dpdGh1Yi5jb20vVHJhbkxlMjQwM1wiIGdtYWlsPVwibWFpbHRvOnRyYXRyYW4uMDMyNEBnbWFpbC5jb21cIi8+XG5cdFx0XHRcdFx0XHQ8UGVyc29uIG5hbWU9XCJWVSBEQU9cIiBzcmM9XCJodHRwczovL2N1dHQubHkvVHdwZ2JjRVwiIGFsdD1cInZ1ZGFvXCIgZmI9XCJodHRwczovL3d3dy5mYWNlYm9vay5jb20vYW5odnVkYW8xN1wiIGdpdGh1Yj1cImh0dHBzOi8vZ2l0aHViLmNvbS9ncmVlbmdyYXNzMTdcIiBnbWFpbD1cIm1haWx0bzphbmh2dWRhbzE3QGdtYWlsLmNvbVwiLz5cblx0XHRcdFx0XHRcdDxQZXJzb24gbmFtZT1cIlFVQU4gREFPXCIgc3JjPVwiaHR0cHM6Ly9jdXR0Lmx5L1h3cGd2ZHRcIiBhbHQ9XCJxdWFuZGFvXCIgZmI9XCJodHRwczovL3d3dy5mYWNlYm9vay5jb20vZGVuZGltYW5pYWNcIiBnaXRodWI9XCJodHRwczovL2dpdGh1Yi5jb20vZGVuZGltYW5pYWNcIiBnbWFpbD1cIm1haWx0bzpkYXEzMDg5OUBnbWFpbC5jb21cIi8+XG5cblx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L2Rpdj5cblxuXHRcdFx0PHN0eWxlIGpzeD5cblx0XHRcdFx0e2Bcblx0XHRcdC50ZWFtX3BhZ2V7XG5cdFx0XHRcdGZsZXgtZ3JvdzogMTtcblx0XHRcdH1cblxuICAgICAgICAgXHQudGl0bGVfYmFyIHtcbiAgICAgICAgICAgIFx0aGVpZ2h0OiAxMDBweDtcbiAgICAgICAgICAgIFx0YmFja2dyb3VuZC1jb2xvcjogI0Y5QTgyNTtcbiAgICAgICAgICAgIFx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHRcdFx0XHRmbGV4LWdyb3c6IDE7XG4gICAgICAgICAgXHR9XG4gICAgICAgICAgXHQudGl0bGUge1xuXHQgICAgICAgICAgICBtYXJnaW4tdG9wOiAyMHB4O1xuICAgIFx0ICAgICAgICBmb250LWZhbWlseTogJ09yYml0cm9uJztcbiAgICAgICAgXHQgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgXHRmb250LXNpemU6IDYwcHg7XG4gICAgICAgICAgICBcdGJvcmRlci1ib3R0b206IDNweCBzb2xpZCAjNDQ0MTQxO1xuICAgICAgICAgICAgXHRsZXR0ZXItc3BhY2luZzogNXB4O1xuXHRcdFx0XHRjb2xvcjogIzQ0NDE0MTtcblx0XHRcdFx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXG5cdCAgICAgICAgfVxuICAgICAgXHRcdC50ZWFtIHtcblx0XHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHRcdFx0ZmxleC1kaXJlY3Rpb246IHJvdzsgIFxuXHRcdFx0XHRhbGlnbi1pdGVtczogY2VudGVyO1xuXHRcdFx0XHRiYWNrZ3JvdW5kLWNvbG9yOiAjMDQwNDA0O1xuXHRcdFx0XHRvcGFjaXR5OiAwLjg1OyBcdFxuXHRcdFx0XHRoZWlnaHQ6IDEwMCU7XG5cdFx0XHRcdCAgXG5cdFx0XHR9XG5cdFx0XHQuYmcge1xuXHRcdFx0XHRiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsICNDNEM0QzQgMzMlLCAjRkRGREZEIDMzJSwgI0ZERkRGRCA2NyUsICNDNEM0QzQgNjYlKTtcblx0XHRcdFx0aGVpZ2h0OiBjYWxjKDEwMCUgLSAxMDBweCk7XG5cdFx0XHR9XG5cdFx0XHRcblx0XHRcbiAgICAgIFx0XHRcdGB9XG5cdFx0XHQ8L3N0eWxlPlxuXHRcdDwvTGF5b3V0PlxuXHQpO1xufVxuIl19 */\n/*@ sourceURL=/Users/lehuyentran/SumWebPro/pages/team.js */"));
 }
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fteam&absolutePagePath=%2FUsers%2Flehuyentran%2FSumWebPro%2Fpages%2Fteam.js ***!
   \*************************************************************************************************************************/
@@ -11256,5 +11256,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=team.js.map

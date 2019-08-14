@@ -252,6 +252,7 @@ var _jsxFileName = "/Users/lehuyentran/SumWebPro/components/MyLayout.js";
 
 function Layout(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "nav",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -11226,7 +11227,7 @@ function Team() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fteam&absolutePagePath=%2FUsers%2Flehuyentran%2FSumWebPro%2Fpages%2Fteam.js ***!
   \*************************************************************************************************************************/
@@ -11249,5 +11250,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=team.js.map

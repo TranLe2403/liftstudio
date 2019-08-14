@@ -11088,38 +11088,45 @@ function Games() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1830138149" + " " + "title_bar",
+    className: "jsx-3517275077" + " " + "game_page",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-1830138149" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3517275077" + " " + "title_bar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "OUR GAMES")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1830138149" + " " + "content_bar1",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-3517275077" + " " + "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1830138149" + " " + "des",
+  }, "OUR GAMES")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3517275077" + " " + "content_bar1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3517275077" + " " + "des",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Des__WEBPACK_IMPORTED_MODULE_4__["default"], {
     game: "GAME 1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Pic__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -11127,21 +11134,21 @@ function Games() {
     alt: "game1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1830138149" + " " + "content_bar2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-1830138149" + " " + "des",
+    className: "jsx-3517275077" + " " + "content_bar2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3517275077" + " " + "des",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Pic__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -11149,25 +11156,25 @@ function Games() {
     alt: "game2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Des__WEBPACK_IMPORTED_MODULE_4__["default"], {
     game: "GAME 2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1830138149",
+  })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "3517275077",
     __self: this
-  }, ".title_bar.jsx-1830138149{height:100px;background-color:#F9A825;text-align:center;}.title.jsx-1830138149{margin-top:20px;font-family:'Orbitron';text-align:center;font-size:60px;border-bottom:3px solid #444141;-webkit-letter-spacing:5px;-moz-letter-spacing:5px;-ms-letter-spacing:5px;letter-spacing:5px;color:#444141;display:inline-block;}.des.jsx-1830138149{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:50px 100px;background-color:#E5E5E5;}.content_bar2.jsx-1830138149{padding:80px 60px;background-image:url(\"https://cutt.ly/swpgW4g\");background-size:100% 100%;}.content_bar1.jsx-1830138149{padding:80px 60px;background-image:url(\"https://cutt.ly/9wpgPpU\");background-size:100% 100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvZ2FtZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEJTLEFBRzBCLEFBTUcsQUFXSCxBQU9LLEFBS0EsYUE1Qk8sR0FNRixFQWtCeUIsQUFLQSxvQkE1QjlCLENBTUEsaUJBSnBCLENBS2lCLFNBaUJXLEFBS0EsTUFyQk0sRUFRRixrQkFTaEMsQUFLQSxZQXJCcUIscUZBUUEsUUFQTCxjQUNPLHFCQUV2QixrREFLcUIsbUJBQ00seUJBQzNCIiwiZmlsZSI6Ii9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvZ2FtZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQuanMnXG5pbXBvcnQgUGljIGZyb20gJy4uL2NvbXBvbmVudHMvUGljJ1xuaW1wb3J0IERlcyBmcm9tICcuLi9jb21wb25lbnRzL0RlcydcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gR2FtZXMoKSB7XG4gIHJldHVybiAoXG4gICAgPExheW91dD5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVfYmFyXCI+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJ0aXRsZVwiPk9VUiBHQU1FUzwvaDE+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudF9iYXIxXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzXCI+XG4gICAgICAgICAgPERlcyBnYW1lPVwiR0FNRSAxXCIvPlxuICAgICAgICAgIDxQaWMgc3JjPVwiaHR0cHM6Ly9jdXR0Lmx5LzR3cGdXdDhcIiBhbHQ9XCJnYW1lMVwiLz5cblxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRlbnRfYmFyMlwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRlc1wiPlxuICAgICAgICAgIDxQaWMgc3JjPVwiaHR0cHM6Ly9jdXR0Lmx5L2V3cGdRa2hcIiBhbHQ9XCJnYW1lMlwiLz5cbiAgICAgICAgICA8RGVzIGdhbWU9XCJHQU1FIDJcIi8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgIHtgXG4gICAgICAgICAgLnRpdGxlX2JhciB7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0Y5QTgyNTtcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcblxuICAgICAgICAgIH1cbiAgICAgICAgICAudGl0bGUge1xuICAgICAgICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgZm9udC1zaXplOiA2MHB4O1xuICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICM0NDQxNDE7XG4gICAgICAgICAgICBsZXR0ZXItc3BhY2luZzogNXB4O1xuICAgICAgICAgICAgY29sb3I6ICM0NDQxNDE7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICBcbiAgICAgICAgICB9XG4gICAgICAgICAgLmRlcyB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgIHBhZGRpbmc6IDUwcHggMTAwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRTVFNUU1O1xuICAgICAgICAgIH1cbiAgICAgICAgICAuY29udGVudF9iYXIyIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDgwcHggNjBweDtcbiAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChcImh0dHBzOi8vY3V0dC5seS9zd3BnVzRnXCIpO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiAxMDAlIDEwMCU7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5jb250ZW50X2JhcjEge1xuICAgICAgICAgICAgcGFkZGluZzogODBweCA2MHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiaHR0cHM6Ly9jdXR0Lmx5Lzl3cGdQcFVcIik7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMCUgMTAwJTtcbiAgICAgICAgICB9XG4gICAgICAgICAgIGBcbiAgICAgICAgfTwvc3R5bGU+XG5cbiAgICA8L0xheW91dD5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/lehuyentran/SumWebPro/pages/games.js */"));
+  }, ".game_page.jsx-3517275077{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;}.title_bar.jsx-3517275077{height:100px;background-color:#F9A825;text-align:center;}.title.jsx-3517275077{margin-top:20px;font-family:'Orbitron';text-align:center;font-size:60px;border-bottom:3px solid #444141;-webkit-letter-spacing:5px;-moz-letter-spacing:5px;-ms-letter-spacing:5px;letter-spacing:5px;color:#444141;display:inline-block;}.des.jsx-3517275077{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:50px 100px;background-color:#E5E5E5;}.content_bar2.jsx-3517275077{padding:80px 60px;background-image:url(\"https://cutt.ly/swpgW4g\");background-size:100% 100%;}.content_bar1.jsx-3517275077{padding:80px 60px;background-image:url(\"https://cutt.ly/9wpgPpU\");background-size:100% 100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvZ2FtZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMkJTLEFBR3VCLEFBR0csQUFNRyxBQVdILEFBT0ssQUFLQSxhQTVCTyxHQU1GLEVBa0J5QixBQUtBLG9CQTVCOUIsQ0FNQSxpQkFKcEIsQ0FLaUIsU0FpQlcsQUFLQSxLQWpDOUIsQ0FZb0MsRUFRRixrQkFTaEMsQUFLQSxZQXJCcUIscUZBUUEsUUFQTCxjQUNPLHFCQUV2QixrREFLcUIsbUJBQ00seUJBQzNCIiwiZmlsZSI6Ii9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvZ2FtZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQuanMnXG5pbXBvcnQgUGljIGZyb20gJy4uL2NvbXBvbmVudHMvUGljJ1xuaW1wb3J0IERlcyBmcm9tICcuLi9jb21wb25lbnRzL0RlcydcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gR2FtZXMoKSB7XG4gIHJldHVybiAoXG4gICAgPExheW91dD5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImdhbWVfcGFnZVwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRpdGxlX2JhclwiPlxuICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJ0aXRsZVwiPk9VUiBHQU1FUzwvaDE+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRlbnRfYmFyMVwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzXCI+XG4gICAgICAgICAgICA8RGVzIGdhbWU9XCJHQU1FIDFcIiAvPlxuICAgICAgICAgICAgPFBpYyBzcmM9XCJodHRwczovL2N1dHQubHkvNHdwZ1d0OFwiIGFsdD1cImdhbWUxXCIgLz5cblxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRlbnRfYmFyMlwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzXCI+XG4gICAgICAgICAgICA8UGljIHNyYz1cImh0dHBzOi8vY3V0dC5seS9ld3BnUWtoXCIgYWx0PVwiZ2FtZTJcIiAvPlxuICAgICAgICAgICAgPERlcyBnYW1lPVwiR0FNRSAyXCIgLz5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgIHtgXG4gICAgICAgIC5nYW1lX3BhZ2V7XG4gICAgICAgICAgZmxleC1ncm93OiAxO1xuICAgICAgICB9XG4gICAgICAgICAgLnRpdGxlX2JhciB7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0Y5QTgyNTtcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcblxuICAgICAgICAgIH1cbiAgICAgICAgICAudGl0bGUge1xuICAgICAgICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgZm9udC1zaXplOiA2MHB4O1xuICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICM0NDQxNDE7XG4gICAgICAgICAgICBsZXR0ZXItc3BhY2luZzogNXB4O1xuICAgICAgICAgICAgY29sb3I6ICM0NDQxNDE7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICBcbiAgICAgICAgICB9XG4gICAgICAgICAgLmRlcyB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgIHBhZGRpbmc6IDUwcHggMTAwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRTVFNUU1O1xuICAgICAgICAgIH1cbiAgICAgICAgICAuY29udGVudF9iYXIyIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDgwcHggNjBweDtcbiAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChcImh0dHBzOi8vY3V0dC5seS9zd3BnVzRnXCIpO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiAxMDAlIDEwMCU7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5jb250ZW50X2JhcjEge1xuICAgICAgICAgICAgcGFkZGluZzogODBweCA2MHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiaHR0cHM6Ly9jdXR0Lmx5Lzl3cGdQcFVcIik7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMCUgMTAwJTtcbiAgICAgICAgICB9XG4gICAgICAgICAgIGBcbiAgICAgICAgfTwvc3R5bGU+XG5cbiAgICA8L0xheW91dD5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/lehuyentran/SumWebPro/pages/games.js */"));
 }
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!***************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fgames&absolutePagePath=%2FUsers%2Flehuyentran%2FSumWebPro%2Fpages%2Fgames.js ***!
   \***************************************************************************************************************************/
@@ -11190,5 +11197,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=games.js.map

@@ -11088,28 +11088,28 @@ function Games() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3448265824" + " " + "title_bar",
+    className: "jsx-1830138149" + " " + "title_bar",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-3448265824" + " " + "title",
+    className: "jsx-1830138149" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, "OUR GAMES")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3448265824" + " " + "content_bar1",
+    className: "jsx-1830138149" + " " + "content_bar1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3448265824" + " " + "des",
+    className: "jsx-1830138149" + " " + "des",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -11131,14 +11131,14 @@ function Games() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3448265824" + " " + "content_bar2",
+    className: "jsx-1830138149" + " " + "content_bar2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3448265824" + " " + "des",
+    className: "jsx-1830138149" + " " + "des",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -11160,14 +11160,14 @@ function Games() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3448265824",
+    id: "1830138149",
     __self: this
-  }, ".title_bar.jsx-3448265824{height:100px;background-color:#F9A825;text-align:center;}.title.jsx-3448265824{margin:10px;font-family:'Orbitron';text-align:center;font-size:60px;border-bottom:3px solid #444141;-webkit-letter-spacing:5px;-moz-letter-spacing:5px;-ms-letter-spacing:5px;letter-spacing:5px;color:#444141;display:inline-block;}.des.jsx-3448265824{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:50px 100px;background-color:#E5E5E5;}.content_bar2.jsx-3448265824{padding:80px 60px;background-image:url(\"https://cutt.ly/swpgW4g\");background-size:100% 100%;}.content_bar1.jsx-3448265824{padding:80px 60px;background-image:url(\"https://cutt.ly/9wpgPpU\");background-size:100% 100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvZ2FtZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEJTLEFBRzBCLEFBTUQsQUFXQyxBQU9LLEFBS0EsWUF0QkssQ0FORSxLQXdCdUIsQUFLQSxpQkF0QjlCLEdBTkEsZUFPSCxHQUxqQixVQXNCNEIsQUFLQSxFQXJCTSxNQVFGLGtCQVNoQyxBQUtBLFFBckJxQix5RkFRQSxJQVBMLGNBQ08scUJBRXZCLHNEQUtxQixtQkFDTSx5QkFDM0IiLCJmaWxlIjoiL1VzZXJzL2xlaHV5ZW50cmFuL1N1bVdlYlByby9wYWdlcy9nYW1lcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMYXlvdXQgZnJvbSAnLi4vY29tcG9uZW50cy9NeUxheW91dC5qcydcbmltcG9ydCBQaWMgZnJvbSAnLi4vY29tcG9uZW50cy9QaWMnXG5pbXBvcnQgRGVzIGZyb20gJy4uL2NvbXBvbmVudHMvRGVzJ1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBHYW1lcygpIHtcbiAgcmV0dXJuIChcbiAgICA8TGF5b3V0PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZV9iYXJcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cInRpdGxlXCI+T1VSIEdBTUVTPC9oMT5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250ZW50X2JhcjFcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkZXNcIj5cbiAgICAgICAgICA8RGVzIGdhbWU9XCJHQU1FIDFcIi8+XG4gICAgICAgICAgPFBpYyBzcmM9XCJodHRwczovL2N1dHQubHkvNHdwZ1d0OFwiIGFsdD1cImdhbWUxXCIvPlxuXG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudF9iYXIyXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzXCI+XG4gICAgICAgICAgPFBpYyBzcmM9XCJodHRwczovL2N1dHQubHkvZXdwZ1FraFwiIGFsdD1cImdhbWUyXCIvPlxuICAgICAgICAgIDxEZXMgZ2FtZT1cIkdBTUUgMlwiLz5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAudGl0bGVfYmFyIHtcbiAgICAgICAgICAgIGhlaWdodDogMTAwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjlBODI1O1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuXG4gICAgICAgICAgfVxuICAgICAgICAgIC50aXRsZSB7XG4gICAgICAgICAgICBtYXJnaW46IDEwcHg7XG4gICAgICAgICAgICBmb250LWZhbWlseTogJ09yYml0cm9uJztcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogNjBweDtcbiAgICAgICAgICAgIGJvcmRlci1ib3R0b206IDNweCBzb2xpZCAjNDQ0MTQxO1xuICAgICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDVweDtcbiAgICAgICAgICAgIGNvbG9yOiAjNDQ0MTQxO1xuICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICAgICAgXG4gICAgICAgICAgfVxuICAgICAgICAgIC5kZXMge1xuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICBwYWRkaW5nOiA1MHB4IDEwMHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0U1RTVFNTtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmNvbnRlbnRfYmFyMiB7XG4gICAgICAgICAgICBwYWRkaW5nOiA4MHB4IDYwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJodHRwczovL2N1dHQubHkvc3dwZ1c0Z1wiKTtcbiAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogMTAwJSAxMDAlO1xuICAgICAgICAgIH1cbiAgICAgICAgICAuY29udGVudF9iYXIxIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDgwcHggNjBweDtcbiAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChcImh0dHBzOi8vY3V0dC5seS85d3BnUHBVXCIpO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiAxMDAlIDEwMCU7XG4gICAgICAgICAgfVxuICAgICAgICAgICBgXG4gICAgICAgIH08L3N0eWxlPlxuXG4gICAgPC9MYXlvdXQ+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/lehuyentran/SumWebPro/pages/games.js */"));
+  }, ".title_bar.jsx-1830138149{height:100px;background-color:#F9A825;text-align:center;}.title.jsx-1830138149{margin-top:20px;font-family:'Orbitron';text-align:center;font-size:60px;border-bottom:3px solid #444141;-webkit-letter-spacing:5px;-moz-letter-spacing:5px;-ms-letter-spacing:5px;letter-spacing:5px;color:#444141;display:inline-block;}.des.jsx-1830138149{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:50px 100px;background-color:#E5E5E5;}.content_bar2.jsx-1830138149{padding:80px 60px;background-image:url(\"https://cutt.ly/swpgW4g\");background-size:100% 100%;}.content_bar1.jsx-1830138149{padding:80px 60px;background-image:url(\"https://cutt.ly/9wpgPpU\");background-size:100% 100%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvZ2FtZXMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBMEJTLEFBRzBCLEFBTUcsQUFXSCxBQU9LLEFBS0EsYUE1Qk8sR0FNRixFQWtCeUIsQUFLQSxvQkE1QjlCLENBTUEsaUJBSnBCLENBS2lCLFNBaUJXLEFBS0EsTUFyQk0sRUFRRixrQkFTaEMsQUFLQSxZQXJCcUIscUZBUUEsUUFQTCxjQUNPLHFCQUV2QixrREFLcUIsbUJBQ00seUJBQzNCIiwiZmlsZSI6Ii9Vc2Vycy9sZWh1eWVudHJhbi9TdW1XZWJQcm8vcGFnZXMvZ2FtZXMuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTXlMYXlvdXQuanMnXG5pbXBvcnQgUGljIGZyb20gJy4uL2NvbXBvbmVudHMvUGljJ1xuaW1wb3J0IERlcyBmcm9tICcuLi9jb21wb25lbnRzL0RlcydcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gR2FtZXMoKSB7XG4gIHJldHVybiAoXG4gICAgPExheW91dD5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVfYmFyXCI+XG4gICAgICAgIDxoMSBjbGFzc05hbWU9XCJ0aXRsZVwiPk9VUiBHQU1FUzwvaDE+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudF9iYXIxXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzXCI+XG4gICAgICAgICAgPERlcyBnYW1lPVwiR0FNRSAxXCIvPlxuICAgICAgICAgIDxQaWMgc3JjPVwiaHR0cHM6Ly9jdXR0Lmx5LzR3cGdXdDhcIiBhbHQ9XCJnYW1lMVwiLz5cblxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRlbnRfYmFyMlwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImRlc1wiPlxuICAgICAgICAgIDxQaWMgc3JjPVwiaHR0cHM6Ly9jdXR0Lmx5L2V3cGdRa2hcIiBhbHQ9XCJnYW1lMlwiLz5cbiAgICAgICAgICA8RGVzIGdhbWU9XCJHQU1FIDJcIi8+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG5cbiAgICAgIDxzdHlsZSBqc3g+XG4gICAgICAgIHtgXG4gICAgICAgICAgLnRpdGxlX2JhciB7XG4gICAgICAgICAgICBoZWlnaHQ6IDEwMHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI0Y5QTgyNTtcbiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcblxuICAgICAgICAgIH1cbiAgICAgICAgICAudGl0bGUge1xuICAgICAgICAgICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnT3JiaXRyb24nO1xuICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgZm9udC1zaXplOiA2MHB4O1xuICAgICAgICAgICAgYm9yZGVyLWJvdHRvbTogM3B4IHNvbGlkICM0NDQxNDE7XG4gICAgICAgICAgICBsZXR0ZXItc3BhY2luZzogNXB4O1xuICAgICAgICAgICAgY29sb3I6ICM0NDQxNDE7XG4gICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgICBcbiAgICAgICAgICB9XG4gICAgICAgICAgLmRlcyB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgIHBhZGRpbmc6IDUwcHggMTAwcHg7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRTVFNUU1O1xuICAgICAgICAgIH1cbiAgICAgICAgICAuY29udGVudF9iYXIyIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDgwcHggNjBweDtcbiAgICAgICAgICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybChcImh0dHBzOi8vY3V0dC5seS9zd3BnVzRnXCIpO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1zaXplOiAxMDAlIDEwMCU7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5jb250ZW50X2JhcjEge1xuICAgICAgICAgICAgcGFkZGluZzogODBweCA2MHB4O1xuICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogdXJsKFwiaHR0cHM6Ly9jdXR0Lmx5Lzl3cGdQcFVcIik7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDEwMCUgMTAwJTtcbiAgICAgICAgICB9XG4gICAgICAgICAgIGBcbiAgICAgICAgfTwvc3R5bGU+XG5cbiAgICA8L0xheW91dD5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/lehuyentran/SumWebPro/pages/games.js */"));
 }
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!***************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fgames&absolutePagePath=%2FUsers%2Flehuyentran%2FSumWebPro%2Fpages%2Fgames.js ***!
   \***************************************************************************************************************************/
@@ -11190,5 +11190,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=games.js.map

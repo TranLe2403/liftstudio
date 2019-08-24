@@ -11521,7 +11521,7 @@ function Games() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 0:
 /*!***************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fgames&absolutePagePath=%2FUsers%2Flehuyentran%2FSumWebPro%2Fpages%2Fgames.js ***!
   \***************************************************************************************************************************/
@@ -11544,5 +11544,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=games.js.map

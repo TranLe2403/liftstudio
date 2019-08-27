@@ -1,7 +1,11 @@
+import Link from "./Link";
+
 function Img () {
   return (
     <div>
-      <img src="/static/logo.svg" alt="logo" className="logo_img"/>
+      <Link href="/">
+      <img src="https://cutt.ly/jwpgf2R" alt="logo" className="logo_img" />
+      </Link>
       <style jsx>
         {`
       .logo_img {

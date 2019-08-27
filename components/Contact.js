@@ -6,9 +6,9 @@ export default function Logo_Contact() {
     <div>
       <div className="group">
         <React.Fragment>
-          <Logo src="/static/gmail.png" alt="gmail" name="Email:" />
-          <Logo src="/static/Rectangle 8.2.png" alt="fb" name="Facebook:" />
-          <Logo src="/static/office.png" alt="home" name="Office:" />
+          <Logo src="https://cutt.ly/AwpgtSt" alt="gmail" name="Email:" />
+          <Logo src="https://cutt.ly/IwpgIvr" alt="fb" name="Facebook:" />
+          <Logo src="https://cutt.ly/7wpgSt4" alt="home" name="Office:" />
         </React.Fragment>
       </div>
       <style jsx>
@@ -44,12 +44,27 @@ function Logo(props) {
                         height: 50px;
                     }
                     .Contact {
-                        padding-left: 50px;
+                        padding-left: 20px;
                         display: flex;
                         align-items: center;
                         color: white;
+                        width: 50%
 
                     }
+                    @media screen and (min-width: 768px) {
+  /* For desktop: */
+        .desc {
+          font-size: 30px;
+          letter-spacing: 2px;
+          padding-top: 30px;
+
+        }
+        .game_title {
+          font-size: 40px;
+          letter-spacing: 3px;
+          text-align: left;
+        }
+      }
                     
                 `}
       </style>

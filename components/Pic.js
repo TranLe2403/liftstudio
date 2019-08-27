@@ -7,9 +7,18 @@ export default function Pic (props) {
             <style jsx>
                 {`
                     .gamePic{
+                        width: 133px;
+                        height: 156px;        
+                        padding-bottom: 10px;            
+                    }
+                    @media screen and (min-width: 768px) {
+  /* For desktop: */
+                    .gamePic {
                         width: 408px;
                         height: 427px;
+                        padding-bottom: 0;
                     }
+      }
                 `}
             </style>
         </div>

@@ -14,9 +14,9 @@ export default function Team() {
 				</div>
 				<div className="bg">
 					<div className="team">
-						<Person name="TRAN LE" src="https://cutt.ly/Owpgbw5" alt="tranle" fb="https://www.facebook.com/tran2403" github="https://github.com/TranLe2403" gmail="mailto:tratran.0324@gmail.com" />
-						<Person name="VU DAO" src="https://cutt.ly/TwpgbcE" alt="vudao" fb="https://www.facebook.com/anhvudao17" github="https://github.com/greengrass17" gmail="mailto:anhvudao17@gmail.com" />
-						<Person name="QUAN DAO" src="https://cutt.ly/Xwpgvdt" alt="quandao" fb="https://www.facebook.com/dendimaniac" github="https://github.com/dendimaniac" gmail="mailto:daq30899@gmail.com" />
+						<Person background="#040404" name="TRAN LE" src="https://cutt.ly/Owpgbw5" alt="tranle" fb="https://www.facebook.com/tran2403" github="https://github.com/TranLe2403" gmail="mailto:tratran.0324@gmail.com" />
+						<Person background="#1B1618" name="VU DAO" src="https://cutt.ly/TwpgbcE" alt="vudao" fb="https://www.facebook.com/anhvudao17" github="https://github.com/greengrass17" gmail="mailto:anhvudao17@gmail.com" />
+						<Person background="#040404" name="QUAN DAO" src="https://cutt.ly/Xwpgvdt" alt="quandao" fb="https://www.facebook.com/dendimaniac" github="https://github.com/dendimaniac" gmail="mailto:daq30899@gmail.com" />
 
 					</div>
 				</div>
@@ -24,6 +24,7 @@ export default function Team() {
 
 			<style jsx>
 				{`
+			
 			.team_page{
 				flex-grow: 1;
 			}
@@ -48,15 +49,16 @@ export default function Team() {
       		.team {
 				display: flex;
 				flex-direction: column;  
-				align-items: center;
+				align-items: stretch;
 				background-color: #040404;
 				opacity: 0.85; 	
 				height: 100%;
 				  
 			}
 			.bg {
-				background: linear-gradient(180deg, #C4C4C4 33%, #FDFDFD 33%, #FDFDFD 67%, #C4C4C4 66%);
-				height: calc(100% - 100px);
+				background-color: #C4C4C4;
+				opacity: 0.85;
+				height: calc(100% - 60px);
 			}
 			@media screen and (min-width: 768px) {
   /* For desktop: */
@@ -70,7 +72,8 @@ export default function Team() {
 				flex-direction: row;
 			}
 			.bg {
-				background: linear-gradient(90deg, #C4C4C4 33%, #FDFDFD 33%, #FDFDFD 67%, #C4C4C4 66%);
+				height: calc(100% - 80px);
+
 			}
       }
 		

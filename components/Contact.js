@@ -3,23 +3,27 @@ import React from 'react'
 
 export default function Logo_Contact() {
   return (
-    <div>
+    <React.Fragment>
       <div className="group">
-        <React.Fragment>
-          <Logo src="https://cutt.ly/AwpgtSt" alt="gmail" name="Email:" />
-          <Logo src="https://cutt.ly/IwpgIvr" alt="fb" name="Facebook:" />
-          <Logo src="https://cutt.ly/7wpgSt4" alt="home" name="Office:" />
-        </React.Fragment>
+          <Logo src="https://cutt.ly/AwpgtSt" alt="gmail" name="Email: abc@gmail.com" />
+          <Logo src="https://cutt.ly/IwpgIvr" alt="fb" name="Facebook: LIFT" />
+          <Logo src="https://cutt.ly/7wpgSt4" alt="home" name="Office: Leppavara" />
       </div>
       <style jsx>
         {`
             .group{
-              margin: 100px;  
+             width: 60%;
             }
-            
+            @media screen and (min-width: 768px) {
+  /* For desktop: */
+            .group{
+              margin: 50px 50px 50px 20px; 
+             
+            }
+      }
         `}
       </style>
-    </div>
+    </React.Fragment>
   );
 }
 
@@ -33,37 +37,44 @@ function Logo(props) {
       <style jsx>
         {`
                     .logo{
-                        width: 50px;
-                        height: 50px;
+                        width: 30px;
+                        height: 30px;
+                        align-self: center;
+                        justify-self: center;
                     }
                     .contact_part{
-                        margin: 20px;
-                        font-family: 'Montserrat';
-                        letter-spacing: 3px;
-                        font-size:40px;
-                        height: 50px;
+                      margin: 25px 0;
+                      font-family: 'Montserrat';
+                      letter-spacing: 1.5px;
+                      font-size: 17px;
+                      display: flex;
+                      justify-self: left;
+
+
                     }
                     .Contact {
-                        padding-left: 20px;
-                        display: flex;
-                        align-items: center;
+                        display: grid;
                         color: white;
-                        width: 50%
-
+                        grid-template-columns: 20% 40%;    
+                        grid-gap: 10px;
+                        justify-content: center;  
+                        width: 100%                 
                     }
                     @media screen and (min-width: 768px) {
   /* For desktop: */
-        .desc {
-          font-size: 30px;
-          letter-spacing: 2px;
-          padding-top: 30px;
-
-        }
-        .game_title {
-          font-size: 40px;
-          letter-spacing: 3px;
-          text-align: left;
-        }
+                      .contact_part{
+                        letter-spacing: 3px;
+                        font-size: 27px;
+                        height: 50px;
+                        width: 100%;
+                    }
+                    .logo{
+                        width: 50px;
+                       height: 50px;
+                    }
+                    .Contact {
+                        padding-left: 30px;
+                    }
       }
                     
                 `}

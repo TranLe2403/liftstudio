@@ -14,8 +14,8 @@ export default function Pic (props) {
                     @media screen and (min-width: 768px) {
   /* For desktop: */
                     .gamePic {
-                        width: 408px;
-                        height: 427px;
+                        width: 100%;
+                        height: 100%;
                         padding-bottom: 0;
                     }
       }

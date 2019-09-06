@@ -12,7 +12,7 @@ export default function Contact() {
                 </div>
                 <div className="bg_layer">
                     <div className="contact">
-                        <div>
+                        <div className="logo_contact">
                             <Logo_Contact />
                         </div>
                         <div className="logo_part">
@@ -42,13 +42,14 @@ export default function Contact() {
                     z-index: -1;
                     
                 }
+
             .contact {
                 display: flex;
-                justify-content: center;
                 position: relative;
                 z-index: 1;
                 height: 100%;
                 align-items: center;
+                flex-direction: column;
             }
           .title_bar {
             height: 100px;
@@ -70,28 +71,49 @@ export default function Contact() {
           }
             .logo_name{
                 font-family: 'Orbitron';
-                font-size:50px;
-                letter-spacing: 7px;
+                font-size: 26px;
+                letter-spacing: 2px;
                 color: white;
-                width:70%;
+                width:100%;
                 text-align: center;
+                line-height: 30px;
             }
             .des_logo {
-                width: 280px;
-                height: 280px;
-                
+                width: 70%;                
+            }
+            .logo_contact {
+                width: 100%;
+                height: 50%;
             }
             .logo_part{
                 display: flex;
                 align-items: center;
                 flex-direction: column;
-                justify-content: flex-start;
-                padding: 100px 0px;
                 z-index: 1;
                 width: 50%;
 
-                
             }
+        @media screen and (min-width: 768px) {
+  /* For desktop: */
+        .contact {
+            flex-direction: row;
+        }
+        .logo_part {
+            padding: 100px 10px 100px 40px;
+
+        }
+        .logo_name{
+            font-size: 45px;
+            letter-spacing: 7px;
+            line-height: 50px;
+            }
+        .logo_contact {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+      }
         `}
             </style>
         </Layout>

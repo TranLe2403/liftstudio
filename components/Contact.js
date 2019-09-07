@@ -13,12 +13,20 @@ export default function Logo_Contact() {
         {`
             .group{
              width: 60%;
+             margin-left: auto;
+             margin-right: auto;
+             height: 100%;
+             padding-top: 50px;
+             
             }
             @media screen and (min-width: 768px) {
   /* For desktop: */
             .group{
-              margin: 50px 50px 50px 20px; 
-             
+              width: 100%;
+              height: 100%;
+              padding-top: 0px;
+              display: flex;
+              flex-direction: column;
             }
       }
         `}
@@ -40,7 +48,7 @@ function Logo(props) {
                         width: 30px;
                         height: 30px;
                         align-self: center;
-                        justify-self: center;
+                        justify-self: end;
                     }
                     .contact_part{
                       margin: 25px 0;
@@ -48,17 +56,17 @@ function Logo(props) {
                       letter-spacing: 1.5px;
                       font-size: 17px;
                       display: flex;
-                      justify-self: left;
+                      justify-self: start;
 
 
                     }
                     .Contact {
                         display: grid;
                         color: white;
-                        grid-template-columns: 20% 40%;    
-                        grid-gap: 10px;
+                        grid-template-columns: 20% 50%;    
+                        grid-gap: 10%;
                         justify-content: center;  
-                        width: 100%                 
+                        width: 100%;
                     }
                     @media screen and (min-width: 768px) {
   /* For desktop: */
@@ -67,13 +75,19 @@ function Logo(props) {
                         font-size: 27px;
                         height: 50px;
                         width: 100%;
+                        margin: 25px 0;
+                        align-items: center;
+
                     }
                     .logo{
                         width: 50px;
                        height: 50px;
                     }
                     .Contact {
-                        padding-left: 30px;
+                      grid-template-columns: 20% 70%;    
+                      padding-left: 0px; 
+                      width: 100%; 
+                      grid-gap: 8%;
                     }
       }
                     

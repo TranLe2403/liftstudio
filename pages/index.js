@@ -106,7 +106,7 @@ export default function Blog() {
 
 
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 768px) and (max-width: 1559px) {
   /* For desktop: */
         
         .des_logo {
@@ -114,7 +114,10 @@ export default function Blog() {
         }
         .title {
           font-size: 45px;
-          letter-spacing: 5px;
+          letter-spacing: 7px;
+          width: 60%;
+          line-height: 55px;
+
         }
         .description{ 
           font-size: 20px;
@@ -127,6 +130,27 @@ export default function Blog() {
           }
         
       }
+      @media screen and (min-width: 1560px) {
+        .title {
+          font-size: 50px;
+          letter-spacing: 12px;
+          line-height: 55px;
+          width: 60%;
+
+        }
+        .description{ 
+          font-size: 20px;
+          letter-spacing: 5px;
+          width: 50%;
+          }
+          .home::before {
+            background-position: 0 0, 33% 0, 66.5% 0, 100% 0;
+            background-size: 100%, 25%, 25%, 25%, 25%;
+          }
+        .des_logo {
+            width: 45%;                
+        }
+}
         `}
       </style>
 

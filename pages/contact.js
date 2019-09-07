@@ -93,7 +93,7 @@ export default function Contact() {
                 width: 50%;
 
             }
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 768px) and (max-width: 1559px) {
   /* For desktop: */
         .contact {
             flex-direction: row;
@@ -106,14 +106,40 @@ export default function Contact() {
             font-size: 45px;
             letter-spacing: 7px;
             line-height: 50px;
+            width: 80%;
             }
         .logo_contact {
             width: 50%;
-            height: 100%;
             display: flex;
             align-items: center;
         }
+        .des_logo {
+            width: 50%;                
+        }
       }
+      @media screen and (min-width: 1560px) {
+        .contact {
+            flex-direction: row;
+        }
+        .logo_part {
+            padding: 100px 10px 100px 40px;
+
+        }
+        .logo_name{
+            font-size: 50px;
+            letter-spacing: 12px;
+            line-height: 55px;
+            width: 100%;
+            }
+        .logo_contact {
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+        .des_logo {
+            width: 45%;                
+        }
+}
         `}
             </style>
         </Layout>

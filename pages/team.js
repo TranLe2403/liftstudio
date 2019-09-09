@@ -1,11 +1,12 @@
 import Layout from '../components/MyLayout.js'
 import Person from '../components/Person.js'
+import fetch from 'isomorphic-unfetch';
 
 
 
 
-export default function Team() {
-
+export default function Team(props) {
+	
 	return (
 		<Layout>
 			<div className="team_page">
@@ -14,11 +15,16 @@ export default function Team() {
 				</div>
 				<div className="bg">
 					<div className="team">
-						<Person name="TRAN LE" src="https://cutt.ly/Owpgbw5" alt="tranle" fb="https://www.facebook.com/tran2403" github="https://github.com/TranLe2403" gmail="mailto:tratran.0324@gmail.com" />
-						<Person name="VU DAO" src="https://cutt.ly/TwpgbcE" alt="vudao" fb="https://www.facebook.com/anhvudao17" github="https://github.com/greengrass17" gmail="mailto:anhvudao17@gmail.com" />
-						<Person name="QUAN DAO" src="https://cutt.ly/Xwpgvdt" alt="quandao" fb="https://www.facebook.com/dendimaniac" github="https://github.com/dendimaniac" gmail="mailto:daq30899@gmail.com" />
-
+						
+						{
+							props.persons.map(person => {
+								return (
+									<Person key={person.name} name={person.name} src={person.avatar} fb={person.fb} github={person.github} gmail={person.gmail} />
+								)
+							})
+						}
 					</div>
+									
 				</div>
 			</div>
 
@@ -79,3 +85,14 @@ export default function Team() {
 		</Layout>
 	);
 }
+Team.getInitialProps = async function() {
+	const res = await fetch('http://localhost:8000/team');
+	const data = await res.json();
+  
+	console.log(`Show data fetched. Count: ${data.length}`);
+  
+	return {
+	  persons: data
+	};
+  };
+

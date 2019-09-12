@@ -19,7 +19,11 @@ export default function Team(props) {
 						{
 							props.persons.map(person => {
 								return (
+<<<<<<< HEAD
 									<Person key={person.name} name={person.name} src={person.avatar} fb={person.fb} github={person.github} gmail={person.gmail} des={person.description} />
+=======
+									<Person key={person.name} name={person.name} src={person.avatar} fb={person.fb} github={person.github} gmail={person.gmail} />
+>>>>>>> 01a451add005692030d256eef127555232403b2e
 								)
 							})
 						}

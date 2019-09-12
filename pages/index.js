@@ -22,10 +22,12 @@ export default function Blog() {
     <Layout>
       <div className="bg">
         <div className="home">
-          <div className="des_logo">
-            <Img />
+          <div className="logo_part">
+            <div className="des_logo">
+              <Img />
+            </div>
+            <h1 className="title">LIFT STUDIO</h1>
           </div>
-          <h1 className="title">LIFT STUDIO</h1>
           <p className="description">Ut enim ad minim veniam,laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
       </div>
@@ -38,10 +40,9 @@ export default function Blog() {
 
 
 
-      .des_logo {
-          width: 150px;
-          height: 150px;
-          padding-top: 60px;
+        .des_logo {
+          width: 70%;
+          height: 100%;
           position: relative;
           padding-bottom: 10px;
         }
@@ -70,46 +71,58 @@ export default function Blog() {
           font-size:22px;
           letter-spacing: 2px;
           color: white;
+          width:100%;
+          text-align: center;
+          line-height: 30px;
+
         }
         .description {
           font-family: 'Montserrat';
-          font-size: 14px;
+          font-size: 17px;
           color: white;
-          width: 240px;
+          width: 50%;
           text-align: center;
           letter-spacing: 2px;
           text-align: justify;
+          line-height: 25px;
         }
         .home {
           display: flex;
           align-items: center;
           flex-direction: column; 
-          height: 700px;
           position: relative;
           z-index: 1;
           height: 100%;
           justify-content: center;
           
         }
+        .logo_part {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 55%;
+
+        }
 
 
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 768px) and (max-width: 1559px) {
   /* For desktop: */
-      
+        
         .des_logo {
-          width: 265px;
-          height: 265px;
-          padding-bottom: 0;
+          width: 50%;
         }
         .title {
           font-size: 45px;
-          letter-spacing: 5px;
+          letter-spacing: 7px;
+          width: 60%;
+          line-height: 55px;
+
         }
         .description{ 
           font-size: 20px;
           letter-spacing: 5px;
-          width: 40%;
+          width: 50%;
           }
           .home::before {
             background-position: 0 0, 33% 0, 66.5% 0, 100% 0;
@@ -117,6 +130,27 @@ export default function Blog() {
           }
         
       }
+      @media screen and (min-width: 1560px) {
+        .title {
+          font-size: 50px;
+          letter-spacing: 12px;
+          line-height: 55px;
+          width: 60%;
+
+        }
+        .description{ 
+          font-size: 20px;
+          letter-spacing: 5px;
+          width: 50%;
+          }
+          .home::before {
+            background-position: 0 0, 33% 0, 66.5% 0, 100% 0;
+            background-size: 100%, 25%, 25%, 25%, 25%;
+          }
+        .des_logo {
+            width: 45%;                
+        }
+}
         `}
       </style>
 

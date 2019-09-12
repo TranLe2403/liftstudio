@@ -10,15 +10,16 @@ export default function Logo(props) {
             <style jsx>
                 {`
                     .logo_SN{
-                        padding: 10px;
                         width: 30px; 
                         height: 30px;
                     }
                     @media screen and (min-width: 768px) {
   /* For desktop: */
                     .logo_SN { 
+                        padding: 10px;
                         width: 50px;
                         height: 50px;
+                        
                     }
                     }
                 `}

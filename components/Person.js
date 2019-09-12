@@ -26,7 +26,7 @@ export default function Person(props) {
 
                 </div>
                 <p className="desc">
-                    Ut enim ad minim venim, labos nisi ut aliquip ex ea commo consequat.
+                    {props.des}
                 </p>
             </div>
             <style jsx>

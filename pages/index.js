@@ -17,7 +17,7 @@ function App (){
   );
 }*/
 
-export default function Blog() {
+export default function Home(props) {
   return (
     <Layout>
       <div className="bg">
@@ -26,7 +26,7 @@ export default function Blog() {
             <Img />
           </div>
           <h1 className="title">LIFT STUDIO</h1>
-          <p className="description">Ut enim ad minim veniam,laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p className="description">{props.home.description}</p>
         </div>
       </div>
       <style jsx>
@@ -78,7 +78,7 @@ export default function Blog() {
           width: 240px;
           text-align: center;
           letter-spacing: 2px;
-          text-align: justify;
+          text-align: center;
         }
         .home {
           display: flex;
@@ -123,3 +123,13 @@ export default function Blog() {
     </Layout>
   );
 }
+Home.getInitialProps = async function() {
+	const res = await fetch('http://localhost:8000/home');
+	const data = await res.json();
+  
+	console.log(`Show data fetched. Count: ${data.length}`);
+  
+	return {
+	  home: data
+	};
+};

@@ -37,7 +37,7 @@ export default function Person(props) {
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%%;
+            width: 100%;
             justify-self: center;
             align-self: center;
         }
@@ -88,17 +88,16 @@ export default function Person(props) {
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%%;
+            width: 100%;
             align-self: end;
         }
         .person_info{
             width: 100%;
-            height: stretch;
+            height: 100%;
             background-color: ${props.background};
             display: grid;
-            grid-template-rows: 50% 100px 30%;  
+            grid-template-rows: auto 100px auto;  
             grid-template-columns: 100%;
-            align-content: stretch;          
             
         }
         .avatar{

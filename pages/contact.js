@@ -52,7 +52,7 @@ export default function Contact() {
                 flex-direction: column;
             }
           .title_bar {
-            height: 100px;
+            height: 65px;
             background-color: #F9A825;
             text-align: center;
 
@@ -61,7 +61,7 @@ export default function Contact() {
             margin-top: 20px;
             font-family: 'Orbitron';
             text-align: center;
-            font-size: 60px;
+            font-size: 26px;
             border-bottom: 3px solid #444141;
             letter-spacing: 5px;
             color: #444141;
@@ -116,6 +116,8 @@ export default function Contact() {
         .des_logo {
             width: 50%;                
         }
+        .title { font-size: 60px;}
+        .title_bar {height: 100px;}
       }
       @media screen and (min-width: 1560px) {
         .contact {
@@ -139,6 +141,8 @@ export default function Contact() {
         .des_logo {
             width: 45%;                
         }
+        .title { font-size: 60px;}
+        .title_bar {height: 100px;}
 }
         `}
             </style>

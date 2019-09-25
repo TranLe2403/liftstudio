@@ -33,7 +33,6 @@ export default function Team() {
             	height: 65px;
             	background-color: #F9A825;
             	text-align: center;
-				flex-grow: 1;
           	}
           	.title {
 	            margin-top: 20px;

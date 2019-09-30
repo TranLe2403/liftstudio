@@ -3,23 +3,35 @@ import React from 'react'
 
 export default function Logo_Contact() {
   return (
-    <div>
+    <React.Fragment>
       <div className="group">
-        <React.Fragment>
-          <Logo src="https://cutt.ly/AwpgtSt" alt="gmail" name="Email:" />
-          <Logo src="https://cutt.ly/IwpgIvr" alt="fb" name="Facebook:" />
-          <Logo src="https://cutt.ly/7wpgSt4" alt="home" name="Office:" />
-        </React.Fragment>
+          <Logo src="https://cutt.ly/AwpgtSt" alt="gmail" name="Email: abc@gmail.com" />
+          <Logo src="https://cutt.ly/IwpgIvr" alt="fb" name="Facebook: LIFT" />
+          <Logo src="https://cutt.ly/7wpgSt4" alt="home" name="Office: Leppavara" />
       </div>
       <style jsx>
         {`
             .group{
-              margin: 100px;  
+             width: 60%;
+             margin-left: auto;
+             margin-right: auto;
+             height: 100%;
+             padding-top: 50px;
+             
             }
-            
+            @media screen and (min-width: 768px) {
+  /* For desktop: */
+            .group{
+              width: 100%;
+              height: 100%;
+              padding-top: 0px;
+              display: flex;
+              flex-direction: column;
+            }
+      }
         `}
       </style>
-    </div>
+    </React.Fragment>
   );
 }
 
@@ -33,37 +45,50 @@ function Logo(props) {
       <style jsx>
         {`
                     .logo{
-                        width: 50px;
-                        height: 50px;
+                        width: 30px;
+                        height: 30px;
+                        align-self: center;
+                        justify-self: end;
                     }
                     .contact_part{
-                        margin: 20px;
-                        font-family: 'Montserrat';
-                        letter-spacing: 3px;
-                        font-size:40px;
-                        height: 50px;
+                      margin: 25px 0;
+                      font-family: 'Montserrat';
+                      letter-spacing: 1.5px;
+                      font-size: 17px;
+                      display: flex;
+                      justify-self: start;
+
+
                     }
                     .Contact {
-                        padding-left: 20px;
-                        display: flex;
-                        align-items: center;
+                        display: grid;
                         color: white;
-                        width: 50%
-
+                        grid-template-columns: 20% 50%;    
+                        grid-gap: 10%;
+                        justify-content: center;  
+                        width: 100%;
                     }
                     @media screen and (min-width: 768px) {
   /* For desktop: */
-        .desc {
-          font-size: 30px;
-          letter-spacing: 2px;
-          padding-top: 30px;
+                      .contact_part{
+                        letter-spacing: 3px;
+                        font-size: 27px;
+                        height: 50px;
+                        width: 100%;
+                        margin: 25px 0;
+                        align-items: center;
 
-        }
-        .game_title {
-          font-size: 40px;
-          letter-spacing: 3px;
-          text-align: left;
-        }
+                    }
+                    .logo{
+                        width: 50px;
+                       height: 50px;
+                    }
+                    .Contact {
+                      grid-template-columns: 20% 70%;    
+                      padding-left: 0px; 
+                      width: 100%; 
+                      grid-gap: 8%;
+                    }
       }
                     
                 `}

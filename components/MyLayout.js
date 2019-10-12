@@ -9,6 +9,7 @@ export default function Layout(props) {
       <Header />
       {props.children}
     </div>
+
     <style jsx>{`
       .nav{
         height: 100vh;

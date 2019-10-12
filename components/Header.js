@@ -40,6 +40,7 @@ export default function Header() {
           
         </div>
       </div>
+      
       <style jsx>{`
         /* For mobile phones: */
         
@@ -50,6 +51,7 @@ export default function Header() {
           align-items: center;
           background-color: #F9A825;
           height: 80px;
+          position: sticky;
 
         }
         .nav_bar_mobile{
@@ -72,6 +74,8 @@ export default function Header() {
         .menuMobile {display: none;}
       
       .header {
+        position: sticky;
+        top: 0;        
         display: flex;
         justify-content: space-between;
         align-items: center;

@@ -21,7 +21,6 @@ export default function Games(props) {
               </div>
             </div>
           </div>
-
           <div className="content_bar2">
             <div className="des">
               <Pic  src={props.game[1].image} alt={props.game[1].title} />
@@ -29,7 +28,7 @@ export default function Games(props) {
             </div>
           </div>
         </div>
-      </div>
+        </div>
       <style jsx>
         {`
         .content_bar{
@@ -59,18 +58,19 @@ export default function Games(props) {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 50px 50px;
+            padding: 50px 30px;
             background-color: #E5E5E5;
             flex-direction: column;
+            opacity: 0.7;
 
           }
           .content_bar2{
-            padding: 80px 60px;
+            padding: 80px 40px;
             background-image: url("https://cutt.ly/swpgW4g");
             background-size: 100% 100%;
           }
           .content_bar1 {
-            padding: 80px 60px;
+            padding: 80px 40px;
             background-image: url("https://cutt.ly/9wpgPpU");
             background-size: 100% 100%;
           }
@@ -79,10 +79,10 @@ export default function Games(props) {
       
         .des {
           flex-direction: row;
-          padding: 50px 100px;
         }
         .content_bar1, .content_bar2 {
           height: 50%;
+          padding: 80px 60px;
         }
         .description{ 
           font-size: 20px;
@@ -94,10 +94,23 @@ export default function Games(props) {
           }
           .title { font-size: 60px;}
           .title_bar {height: 100px;}
-          div.script{ order: 1;}
-          div.pic {
+          div.script1{ 
+            order: 1;
+            width: 60%;
+            padding-left: 30px;  
+          }
+          div.pic1 {
             order: 2;
             padding-left: 60px;
+            width: 40%;
+          }
+          .pic2{
+            width: 40%;
+          }
+          .script2{
+            width: 60%;
+            padding-right: 30px;
+          
           }
       }
            `}

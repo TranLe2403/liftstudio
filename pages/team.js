@@ -15,25 +15,20 @@ export default function Team(props) {
 				</div>
 				<div className="bg">
 					<div className="team">
-						
 						{
 							props.persons.map(person => {
 								return (
-<<<<<<< HEAD
 									<Person key={person.name} name={person.name} src={person.avatar} fb={person.fb} github={person.github} gmail={person.gmail} des={person.description} />
-=======
-//									<Person key={person.name} name={person.name} src={person.avatar} fb={person.fb} github={person.github} gmail={person.gmail} />
->>>>>>> 01a451add005692030d256eef127555232403b2e
 								)
 							})
 						}
-					</div>
-									
+					</div>			
 				</div>
 			</div>
 
 			<style jsx>
 				{`
+			
 			.team_page{
 				flex-grow: 1;
 			}
@@ -58,15 +53,16 @@ export default function Team(props) {
       		.team {
 				display: flex;
 				flex-direction: column;  
-				align-items: center;
+				align-items: stretch;
 				background-color: #040404;
 				opacity: 0.85; 	
 				height: 100%;
 				  
 			}
 			.bg {
-				background: linear-gradient(180deg, #C4C4C4 33%, #FDFDFD 33%, #FDFDFD 67%, #C4C4C4 66%);
-				height: calc(100% - 100px);
+				background-color: #C4C4C4;
+				opacity: 0.85;
+				height: calc(100% - 60px);
 			}
 			@media screen and (min-width: 768px) {
   /* For desktop: */
@@ -80,7 +76,8 @@ export default function Team(props) {
 				flex-direction: row;
 			}
 			.bg {
-				background: linear-gradient(90deg, #C4C4C4 33%, #FDFDFD 33%, #FDFDFD 67%, #C4C4C4 66%);
+				height: calc(100% - 80px);
+
 			}
       }
 		

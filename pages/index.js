@@ -80,7 +80,6 @@ export default function Home(props) {
           width: 240px;
           text-align: center;
           letter-spacing: 2px;
-          text-align: center;
         }
         .home {
           display: flex;

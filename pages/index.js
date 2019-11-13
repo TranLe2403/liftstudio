@@ -1,5 +1,7 @@
 import Layout from '../components/MyLayout.js'
 import Img from '../components/Logo'
+import fetch from 'isomorphic-unfetch'
+
 
 /*  Responsive by JS
 import WindowDimensionsProvider from '../components/WindowDimensionsProvider'

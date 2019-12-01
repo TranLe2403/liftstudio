@@ -66,6 +66,7 @@ export default function Team() {
         	}
         	.title {
         		font-size: 60px;
+				margin-top: 0px;
         	}
 			.team {
 				flex-direction: row;

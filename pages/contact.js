@@ -116,7 +116,10 @@ export default function Contact() {
         .des_logo {
             width: 50%;                
         }
-        .title { font-size: 60px;}
+        .title { 
+            font-size: 60px;
+            margin-top: 0px;
+        }
         .title_bar {height: 100px;}
       }
       @media screen and (min-width: 1560px) {

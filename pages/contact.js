@@ -52,7 +52,7 @@ export default function Contact() {
                 flex-direction: column;
             }
           .title_bar {
-            height: 100px;
+            height: 65px;
             background-color: #F9A825;
             text-align: center;
 
@@ -61,7 +61,7 @@ export default function Contact() {
             margin-top: 20px;
             font-family: 'Orbitron';
             text-align: center;
-            font-size: 60px;
+            font-size: 26px;
             border-bottom: 3px solid #444141;
             letter-spacing: 5px;
             color: #444141;
@@ -108,6 +108,11 @@ export default function Contact() {
             line-height: 50px;
             width: 80%;
             }
+        .title {
+    		font-size: 60px;
+			margin-top: 0px;
+
+    	}
         .logo_contact {
             width: 50%;
             display: flex;

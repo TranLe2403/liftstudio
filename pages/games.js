@@ -97,7 +97,9 @@ export default function Games() {
             background-position: 0 0, 33% 0, 66.5% 0, 100% 0;
             background-size: 100%, 25%, 25%, 25%, 25%;
           }
-          .title { font-size: 60px;}
+          .title { font-size: 60px;
+            margin-top: 0px;
+          }
           .title_bar {height: 100px;}
           div.script1{ 
             order: 1;

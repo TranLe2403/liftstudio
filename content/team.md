@@ -19,5 +19,11 @@ persons:
     fb: 'https://www.facebook.com/dendimaniac'
     github: 'https://github.com/dendimaniac'
     name: Quan Dao
+  - avatar: 'https://cutt.ly/Owpgbw5'
+    description: 'https://www.facebook.com/tran2403'
+    email: 'https://www.facebook.com/tran2403'
+    fb: 'https://www.facebook.com/tran2403'
+    github: 'https://www.facebook.com/tran2403'
+    name: Tran Le
 ---
 

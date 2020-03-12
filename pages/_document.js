@@ -16,6 +16,7 @@ class MyDocument extends Document {
             key="google-font-Orbitron"
           />
           <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
           <style>{`body { margin: 0 } /* custom! */`}</style>
         </Head>

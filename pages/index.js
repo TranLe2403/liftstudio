@@ -1,5 +1,6 @@
 import Layout from "../components/MyLayout.js";
 import Img from "../components/Logo";
+import { useEffect } from "react";
 
 /*  Responsive by JS
 import WindowDimensionsProvider from '../components/WindowDimensionsProvider'
@@ -16,6 +17,18 @@ function App (){
 }*/
 
 export default function Blog() {
+  useEffect(() => {
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  }, []);
+
   return (
     <Layout>
       <div className="bg">

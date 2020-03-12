@@ -6,7 +6,7 @@ persons:
     email: 'mailto:tratran.0324@gmail.com'
     fb: 'https://www.facebook.com/tran2403'
     github: 'https://github.com/TranLe2403'
-    name: adsadsad
+    name: Tran Le
   - avatar: 'https://cutt.ly/TwpgbcE'
     description: Not even sure what my role is
     email: 'mailto:anhvudao17@gmail.com'

@@ -1,6 +1,6 @@
 module.exports = {
   // some configuration
-  assetPrefix: process.env.NODE_ENV === "production" ? "/SumWebPro" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/" : "",
   // another configuration
   webpack: cfg => {
     cfg.module.rules.push({

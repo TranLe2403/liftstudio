@@ -1,6 +1,5 @@
 import Layout from "../components/MyLayout.js";
 import Img from "../components/Logo";
-import { attributes, react as HomeContent } from "../content/home.md";
 
 /*  Responsive by JS
 import WindowDimensionsProvider from '../components/WindowDimensionsProvider'
@@ -17,7 +16,6 @@ function App (){
 }*/
 
 export default function Blog() {
-  let { title, cats } = attributes;
   return (
     <Layout>
       <div className="bg">
@@ -26,16 +24,7 @@ export default function Blog() {
             <div className="des_logo">
               <Img />
             </div>
-            <h1 className="title">{title}</h1>
-            <HomeContent />
-            <ul>
-              {cats.map((cat, k) => (
-                <li key={k}>
-                  <h2>{cat.name}</h2>
-                  <p>{cat.description}</p>
-                </li>
-              ))}
-            </ul>
+            <h1 className="title">LIFT STUDIO</h1>
           </div>
           <p className="description">
             Ut enim ad minim veniam,laboris nisi ut aliquip ex ea commodo

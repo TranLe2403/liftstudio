@@ -6,7 +6,7 @@ persons:
     email: 'mailto:tratran.0324@gmail.com'
     fb: 'https://www.facebook.com/tran2403'
     github: 'https://github.com/TranLe2403'
-    name: Tran Le
+    name: Tran Le Huyen
   - avatar: 'https://cutt.ly/TwpgbcE'
     description: CMO - Chief Mess up Officer. Dedicated to running around annoying others.
     email: 'mailto:anhvudao17@gmail.com'

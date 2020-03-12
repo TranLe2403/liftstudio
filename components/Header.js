@@ -1,24 +1,23 @@
-import Img from './Logo'
-import Link from './Link'
-import Burger from './BgMenu'
+import Img from "./Logo";
+import Link from "./Link";
+import Burger from "./BgMenu";
 
 export default function Header() {
-  
   const links = [
-      {href: "/", name: "HOME"},
-      {href: "/games", name: "GAMES"},
-      {href: "/team", name: "TEAM"},
-      {href: "/contact", name: "CONTACT"}
+    { href: "/", name: "HOME" },
+    { href: "/games", name: "GAMES" },
+    { href: "/team", name: "TEAM" },
+    { href: "/contact", name: "CONTACT" }
   ];
 
   return (
     <div>
-      <div className="menuMobile" >
+      <div className="menuMobile">
         <div className="nav_logo">
           <Img />
         </div>
-        <div className ="nav_bar_mobile">       
-          <Burger /> 
+        <div className="nav_bar_mobile">
+          <Burger />
         </div>
       </div>
       <div className="header">
@@ -26,18 +25,18 @@ export default function Header() {
           <Img />
         </div>
         <div className="menu">
-
-
-          {
-            links.map(link => {
-              return (
-              <Link activeClassName="active" href={link.href} as={ process.env.BACKEND_URL + link.href} key={link.name}>
-                  <a className="link">{link.name}</a>
+          {links.map(link => {
+            return (
+              <Link
+                activeClassName="active"
+                href={link.href}
+                as={link.href}
+                key={link.name}
+              >
+                <a className="link">{link.name}</a>
               </Link>
-              
-            )})
-          }
-          
+            );
+          })}
         </div>
       </div>
       <style jsx>{`
@@ -110,7 +109,5 @@ export default function Header() {
 
     `}</style>
     </div>
-
-  )
+  );
 }
-

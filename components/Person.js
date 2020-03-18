@@ -1,10 +1,24 @@
 import React from "react";
 import Logo from "../components/Logo_SN.js";
+import styled from "styled-components";
+
+const Container = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  @media (min-width: 768px) {
+    max-width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+`;
 
 export default function Person(props) {
   return (
     <div>
-      <div className="person_info">
+      <Container>
         <div className="avatar_container">
           <img src={props.src} alt={props.alt} className="avatar" />
           <h2 className="name">{props.name}</h2>
@@ -25,7 +39,7 @@ export default function Person(props) {
         </div>
 
         <p className="desc">{props.description}</p>
-      </div>
+      </Container>
       <style jsx>
         {`
           .avatar_container {
@@ -35,12 +49,6 @@ export default function Person(props) {
             width: 100%;
             justify-self: center;
             align-self: center;
-          }
-          .person_info {
-            width: 100%;
-            height: 100%;
-            background-color: ${props.background};
-            display: flex;
           }
           .avatar {
             width: 100%;
@@ -77,16 +85,6 @@ export default function Person(props) {
             /* For desktop: */
             .avatar_container {
               width: 100%;
-            }
-            .person_info {
-              width: 100%;
-              max-width: 400px;
-              height: 100%;
-              background-color: ${props.background};
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              flex: 1;
             }
             .avatar {
               width: 100%;

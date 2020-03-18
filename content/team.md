@@ -8,7 +8,7 @@ persons:
     github: 'https://github.com/TranLe2403'
     name: Tran Le Huyen
   - avatar: 'https://cutt.ly/TwpgbcE'
-    description: Not even sure what my role is
+    description: CMO - Chief Mess up Officer. Dedicated to running around annoying others.
     email: 'mailto:anhvudao17@gmail.com'
     fb: 'https://www.facebook.com/anhvudao17'
     github: 'https://github.com/greengrass17'

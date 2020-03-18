@@ -5,7 +5,7 @@ export default function Person(props) {
   return (
     <div>
       <div className="person_info">
-        <div className="block1">
+        <div className="avatar_container">
           <img src={props.src} alt={props.alt} className="avatar" />
           <h2 className="name">{props.name}</h2>
         </div>
@@ -23,11 +23,12 @@ export default function Person(props) {
             <Logo src="https://cutt.ly/AwpgtSt" alt="gmail" />
           </a>
         </div>
+
         <p className="desc">{props.description}</p>
       </div>
       <style jsx>
         {`
-          .block1 {
+          .avatar_container {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -37,22 +38,21 @@ export default function Person(props) {
           }
           .person_info {
             width: 100%;
-            height: 35vh;
+            height: 100%;
             background-color: ${props.background};
-            display: grid;
-            grid-template-columns: 30% 10% 50%;
+            display: flex;
           }
           .avatar {
-            width: 80%;
-            height: 60%;
+            width: 100%;
+            height: 100%;
             border-radius: 50%;
-            padding: 10px 0;
           }
           .name {
             font-family: "Orbitron";
             font-size: 14px;
             letter-spacing: 7px;
             color: #ffffff;
+            text-align: center;
           }
           .desc {
             font-family: "Montserrat";
@@ -60,7 +60,6 @@ export default function Person(props) {
             width: 80%;
             color: #ffffff;
             letter-spacing: 3px;
-            text-align: justify;
             justify-self: center;
             align-self: center;
           }
@@ -71,35 +70,36 @@ export default function Person(props) {
             margin-left: auto;
             margin-right: auto;
             align-self: center;
+            margin-left: 20px;
+            margin-right: 20px;
           }
           @media screen and (min-width: 768px) {
             /* For desktop: */
-            .block1 {
-              display: flex;
-              flex-direction: column;
-              align-items: center;
+            .avatar_container {
               width: 100%;
-              align-self: end;
             }
             .person_info {
               width: 100%;
+              max-width: 400px;
               height: 100%;
               background-color: ${props.background};
-              display: grid;
-              grid-template-rows: auto 100px auto;
-              grid-template-columns: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              flex: 1;
             }
             .avatar {
-              width: 65%;
-              height: 50%;
+              width: 100%;
+              height: 100%;
+              max-width: 400px;
               border-radius: 50%;
-              padding: 10px 0;
             }
             .name {
               font-family: "Orbitron";
               font-size: 25px;
               letter-spacing: 7px;
               color: #ffffff;
+              text-align: center;
             }
             .desc {
               font-family: "Montserrat";
@@ -107,10 +107,9 @@ export default function Person(props) {
               width: 80%;
               color: #ffffff;
               letter-spacing: 3px;
-              text-align: justify;
               align-self: start;
               margin-top: 0;
-              margin-bottom: 30px;
+              margin-bottom: 0;
             }
             .logo_network {
               display: flex;

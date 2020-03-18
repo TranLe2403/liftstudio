@@ -55,14 +55,18 @@ export default function Team(props) {
             display: flex;
             flex-direction: column;
             align-items: stretch;
+            justify-content: space-around;
             background-color: #040404;
             opacity: 0.85;
             height: 100%;
+            flex-wrap: wrap;
+            padding: 20px;
+            box-sizing: border-box;
           }
           .bg {
             background-color: #c4c4c4;
             opacity: 0.85;
-            height: calc(100% - 60px);
+            height: 100%;
           }
           @media screen and (min-width: 768px) {
             /* For desktop: */
@@ -75,9 +79,12 @@ export default function Team(props) {
             }
             .team {
               flex-direction: row;
+              height: 100%;
+              align-items: stretch;
+              justify-content: space-around;
             }
             .bg {
-              height: calc(100% - 80px);
+              height: 100%;
             }
           }
         `}

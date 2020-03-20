@@ -1,22 +1,58 @@
 import Layout from "../components/MyLayout.js";
-import Pic from "../components/Pic";
-import Des from "../components/Des";
+import styled from "styled-components";
+import { attributes } from "../content/games.md";
+import GameInfo from "../components/GameInfo.js";
+
+const Container = styled.div`
+  flex-grow: 1;
+`;
+
+const TitleBar = styled.div`
+  height: 65px;
+  background-color: #f9a825;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    height: 100px;
+  }
+`;
+
+const Title = styled.h1`
+  margin-top: 20px;
+  font-family: "Orbitron";
+  text-align: center;
+  font-size: 26px;
+  border-bottom: 3px solid #444141;
+  letter-spacing: 5px;
+  color: #444141;
+  display: inline-block;
+
+  @media (min-width: 768px) {
+    font-size: 60px;
+    margin-top: 0px;
+  }
+`;
 
 export default function Games() {
+  let { title, games } = attributes;
+
   return (
     <Layout>
-      <div className="game_page">
-        <div className="title_bar">
-          <h1 className="title">OUR GAMES</h1>
-        </div>
-        <div className="content_bar">
-          <div className="content_bar1">
+      <Container>
+        <TitleBar className="title_bar">
+          <Title className="title">{title}</Title>
+        </TitleBar>
+        <div>
+          {games.map((info, index) => (
+            <GameInfo key={index} info={info} index={index} />
+          ))}
+          {/* <div className="content_bar1">
             <div className="des">
               <div className="pic1">
                 <Pic src="https://cutt.ly/4wpgWt8" alt="game1" />
               </div>
               <div className="script1">
-                <Des game="GAME 1" />
+                <Des game="GAME 1" description={"description"} />
               </div>
             </div>
           </div>
@@ -27,12 +63,12 @@ export default function Games() {
                 <Pic src="https://cutt.ly/ewpgQkh" alt="game2" />
               </div>
               <div className="script2">
-                <Des game="GAME 2" />
+                <Des game="GAME 2" description={"description"} />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
-      </div>
+      </Container>
       <style jsx>
         {`
           .content_bar {
@@ -77,7 +113,6 @@ export default function Games() {
           }
           @media screen and (min-width: 768px) {
             /* For desktop: */
-
             .des {
               flex-direction: row;
             }

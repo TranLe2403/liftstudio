@@ -1,20 +1,20 @@
 import Link from "./Link";
 
-function Img () {
+function Logo() {
   return (
     <div>
       <Link href="/">
-      <img src="https://cutt.ly/jwpgf2R" alt="logo" className="logo_img" />
+        <img src="https://cutt.ly/jwpgf2R" alt="logo" className="logo_img" />
       </Link>
       <style jsx>
         {`
-      .logo_img {
-        background: #444141;
-      }
-      `}
+          .logo_img {
+            background: #444141;
+          }
+        `}
       </style>
     </div>
   );
 }
 
-export default Img
+export default Logo;

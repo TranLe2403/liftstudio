@@ -1,4 +1,4 @@
-import Img from "./Logo";
+import Logo from "./Logo";
 import Link from "./Link";
 import Burger from "./BgMenu";
 
@@ -14,7 +14,7 @@ export default function Header() {
     <div>
       <div className="menuMobile">
         <div className="nav_logo">
-          <Img />
+          <Logo />
         </div>
         <div className="nav_bar_mobile">
           <Burger />
@@ -22,7 +22,7 @@ export default function Header() {
       </div>
       <div className="header">
         <div className="nav_logo">
-          <Img />
+          <Logo />
         </div>
         <div className="menu">
           {links.map(link => {

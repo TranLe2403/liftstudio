@@ -4,11 +4,11 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
-  height: 100%;
   display: flex;
 
   @media (min-width: 768px) {
     max-width: 400px;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     flex: 1;

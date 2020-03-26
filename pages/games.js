@@ -3,7 +3,7 @@ import Pic from '../components/Pic'
 import Des from '../components/Des'
 
 
-export default function Games() {
+export default function Games(props) {
   return (
     <Layout>
       <div className="game_page">
@@ -13,27 +13,22 @@ export default function Games() {
         <div className="content_bar">
           <div className="content_bar1">
             <div className="des">
-              <div className="pic1">
-                <Pic src="https://cutt.ly/4wpgWt8" alt="game1" />
+              <div className="pic">
+                <Pic src={props.game[0].image}  alt={props.game[0].title} />
               </div>
-              <div className="script1" >
-                <Des game="GAME 1" />
+              <div className="script" >
+                <Des game={props.game[0].title} des={props.game[0].description}/>
               </div>
             </div>
           </div>
-
           <div className="content_bar2">
             <div className="des">
-              <div className="pic2">
-                <Pic  src="https://cutt.ly/ewpgQkh" alt="game2" />
-              </div>
-              <div className="script2">
-                <Des  game="GAME 2" />
-              </div>
+              <Pic  src={props.game[1].image} alt={props.game[1].title} />
+              <Des  game={props.game[1].title} des={props.game[1].description} />
             </div>
           </div>
         </div>
-      </div>
+        </div>
       <style jsx>
         {`
         .content_bar{
@@ -126,3 +121,13 @@ export default function Games() {
     </Layout>
   );
 }
+Games.getInitialProps = async function() {
+	const res = await fetch('http://localhost:8000/games');
+	const data = await res.json();
+  
+	console.log(`Show data fetched. Count: ${data.length}`);
+  
+	return {
+	  game: data
+	};
+};

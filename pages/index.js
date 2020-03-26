@@ -1,5 +1,7 @@
 import Layout from '../components/MyLayout.js'
 import Img from '../components/Logo'
+import fetch from 'isomorphic-unfetch'
+
 
 /*  Responsive by JS
 import WindowDimensionsProvider from '../components/WindowDimensionsProvider'
@@ -17,18 +19,16 @@ function App (){
   );
 }*/
 
-export default function Blog() {
+export default function Home(props) {
   return (
     <Layout>
       <div className="bg">
         <div className="home">
-          <div className="logo_part">
-            <div className="des_logo">
-              <Img />
-            </div>
-            <h1 className="title">LIFT STUDIO</h1>
+          <div className="des_logo">
+            <Img />
           </div>
-          <p className="description">Ut enim ad minim veniam,laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h1 className="title">LIFT STUDIO</h1>
+          <p className="description">{props.home.description}</p>
         </div>
       </div>
       <style jsx>
@@ -40,9 +40,10 @@ export default function Blog() {
 
 
 
-        .des_logo {
-          width: 70%;
-          height: 100%;
+      .des_logo {
+          width: 150px;
+          height: 150px;
+          padding-top: 60px;
           position: relative;
           padding-bottom: 10px;
         }
@@ -71,58 +72,45 @@ export default function Blog() {
           font-size:22px;
           letter-spacing: 2px;
           color: white;
-          width:100%;
-          text-align: center;
-          line-height: 30px;
-
         }
         .description {
           font-family: 'Montserrat';
-          font-size: 17px;
+          font-size: 14px;
           color: white;
-          width: 50%;
+          width: 240px;
           text-align: center;
           letter-spacing: 2px;
-          text-align: justify;
-          line-height: 25px;
         }
         .home {
           display: flex;
           align-items: center;
           flex-direction: column; 
+          height: 700px;
           position: relative;
           z-index: 1;
           height: 100%;
           justify-content: center;
           
         }
-        .logo_part {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          width: 55%;
-
-        }
 
 
 
-        @media screen and (min-width: 768px) and (max-width: 1559px) {
+        @media screen and (min-width: 768px) {
   /* For desktop: */
-        
+      
         .des_logo {
-          width: 50%;
+          width: 265px;
+          height: 265px;
+          padding-bottom: 0;
         }
         .title {
           font-size: 45px;
-          letter-spacing: 7px;
-          width: 60%;
-          line-height: 55px;
-
+          letter-spacing: 5px;
         }
         .description{ 
           font-size: 20px;
           letter-spacing: 5px;
-          width: 50%;
+          width: 40%;
           }
           .home::before {
             background-position: 0 0, 33% 0, 66.5% 0, 100% 0;
@@ -130,30 +118,19 @@ export default function Blog() {
           }
         
       }
-      @media screen and (min-width: 1560px) {
-        .title {
-          font-size: 50px;
-          letter-spacing: 12px;
-          line-height: 55px;
-          width: 60%;
-
-        }
-        .description{ 
-          font-size: 20px;
-          letter-spacing: 5px;
-          width: 50%;
-          }
-          .home::before {
-            background-position: 0 0, 33% 0, 66.5% 0, 100% 0;
-            background-size: 100%, 25%, 25%, 25%, 25%;
-          }
-        .des_logo {
-            width: 45%;                
-        }
-}
         `}
       </style>
 
     </Layout>
   );
 }
+Home.getInitialProps = async function() {
+	const res = await fetch('http://localhost:8000/home');
+	const data = await res.json();
+  
+	console.log(`Show data fetched. Count: ${data.length}`);
+  
+	return {
+	  home: data
+	};
+};

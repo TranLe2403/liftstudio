@@ -1,6 +1,8 @@
 import Img from "./Logo";
 import Link from "./Link";
 import Burger from "./BgMenu";
+import React from 'react'
+
 
 export default function Header() {
   const links = [

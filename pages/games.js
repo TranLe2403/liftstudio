@@ -1,6 +1,7 @@
 import Layout from "../components/MyLayout.js";
 import Pic from "../components/Pic";
 import Des from "../components/Des";
+import React from 'react'
 
 export default function Games() {
   return (

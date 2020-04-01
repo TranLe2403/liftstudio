@@ -1,5 +1,6 @@
 import { withRouter } from "next/router";
 import Layout from "../components/MyLayout";
+import React from 'react'
 
 const Content = withRouter(props => (
   <div>
@@ -8,7 +9,7 @@ const Content = withRouter(props => (
   </div>
 ));
 
-const Page = props => (
+const Page = () => (
   <Layout>
     <Content />
   </Layout>

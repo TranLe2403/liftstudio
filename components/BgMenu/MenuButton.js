@@ -1,4 +1,4 @@
-  import {useState} from 'react'
+  import React, {useState} from 'react'
 
   export default function MenuButton ({open, color, onClick}) {
     const [colorButton] = useState(color ? color : '#F1EBEB' )

@@ -1,6 +1,7 @@
 import Layout from "../components/MyLayout.js";
 import Img from "../components/Logo";
 import { useEffect } from "react";
+import React from 'react'
 
 /*  Responsive by JS
 import WindowDimensionsProvider from '../components/WindowDimensionsProvider'

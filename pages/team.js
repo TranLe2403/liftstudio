@@ -1,8 +1,9 @@
 import Layout from "../components/MyLayout.js";
 import Person from "../components/Person.js";
 import { attributes } from "../content/team.md";
+import React from 'react'
 
-export default function Team(props) {
+export default function Team() {
   let { title, persons } = attributes;
   return (
     <Layout>

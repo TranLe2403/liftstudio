@@ -11,15 +11,15 @@ export default function Person(props) {
         </div>
 
         <div className="logo_network">
-          <a className="logo" href={props.fb} target="_blank">
+          <a className="logo" href={props.fb} target="_blank" rel="noopener noreferrer">
             <Logo src="https://cutt.ly/IwpgIvr" alt="fb" />
           </a>
 
-          <a className="logo" href={props.github} target="_blank">
+          <a className="logo" href={props.github} target="_blank" rel="noopener noreferrer">
             <Logo src="https://cutt.ly/nwpgU6A" alt="github" />
           </a>
 
-          <a className="logo" href={props.gmail} target="_blank">
+          <a className="logo" href={props.gmail} target="_blank" rel="noopener noreferrer">
             <Logo src="https://cutt.ly/AwpgtSt" alt="gmail" />
           </a>
         </div>

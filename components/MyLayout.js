@@ -1,21 +1,17 @@
 import Header from "./Header";
+import styled from "styled-components";
+
+const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+`;
 
 export default function Layout(props) {
   return (
-    <div>
-      <div className="nav">
-        <Header />
-        {props.children}
-      </div>
-      <style jsx>
-        {`
-          .nav {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-          }
-        `}
-      </style>
-    </div>
+    <Container>
+      <Header />
+      {props.children}
+    </Container>
   );
 }

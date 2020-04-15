@@ -1,20 +1,16 @@
 import Link from "./Link";
+import styled from "styled-components";
 
-function Img () {
+const LogoImage = styled.img`
+  background: #444141;
+`;
+
+function Logo() {
   return (
-    <div>
-      <Link href="/">
-      <img src="https://cutt.ly/jwpgf2R" alt="logo" className="logo_img" />
-      </Link>
-      <style jsx>
-        {`
-      .logo_img {
-        background: #444141;
-      }
-      `}
-      </style>
-    </div>
+    <Link href="/">
+      <LogoImage src="https://cutt.ly/jwpgf2R" alt="logo" />
+    </Link>
   );
 }
 
-export default Img
+export default Logo;

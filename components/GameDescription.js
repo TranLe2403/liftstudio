@@ -29,11 +29,9 @@ const Description = styled.p`
 
 export default function GameDescription(props) {
   return (
-    <div>
-      <div>
-        <Title>{props.game}</Title>
-        <Description>{props.description}</Description>
-      </div>
-    </div>
+    <>
+      <Title>{props.game}</Title>
+      <Description>{props.description}</Description>
+    </>
   );
 }

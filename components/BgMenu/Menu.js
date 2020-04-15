@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const MeunListContainer = styled.div`
+const MenuListContainer = styled.div`
   margin-top: 23px;
   position: absolute;
   right: 0;
@@ -24,8 +24,8 @@ const List = styled.div`
 
 export default function Menu({ open, children }) {
   return (
-    <MeunListContainer open={open}>
+    <MenuListContainer open={open}>
       {open ? <List className="list">{children}</List> : null}
-    </MeunListContainer>
+    </MenuListContainer>
   );
 }

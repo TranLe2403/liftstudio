@@ -48,7 +48,7 @@ const Line = styled.div`
 `;
 
 export default function MenuButton({ open, color, onClick }) {
-  const [colorButton] = useState(color ? color : "#F1EBEB");
+  const colorButton = color ? color : "#F1EBEB";
   return (
     <Button onClick={onClick}>
       <Line colorButton={colorButton} open={open} position="top" />

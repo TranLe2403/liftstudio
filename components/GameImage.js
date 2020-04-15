@@ -14,9 +14,5 @@ const Image = styled.img`
 `;
 
 export default function GameImage(props) {
-  return (
-    <>
-      <Image src={props.src} alt={props.alt} />
-    </>
-  );
+  return <Image src={props.src} alt={props.alt} />;
 }
